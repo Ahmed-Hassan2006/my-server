@@ -1,0 +1,18 @@
+{
+    "version": "1.7",
+    "url": "https://example.com/update_v1.5.exe",
+    "welcome_msg": "مرحبا بك في البرنامج: هذا الاصدار تجريبي، وسوف نقوم باصدار النسخة الرسمية قريبا شكرً على تنزيل برنامجنا",
+    "admin_msg": "مرحبا بك",
+    "tools": [
+        {
+            "id": "t1",
+            "name": "مولد كلمات المرور",
+            "filename": "start.bin",
+            "link": "https://drive.google.com/uc?export=download&id=1Lov7pm3L7g8GYhFz_vZZtyStjG0rNJ9L",
+            "category": "الأمان والتشفير",
+            "description": "هل سبق لك أن هناك موقع أو خدمة صارمة في تكوين كلمات المرور، هذه الأداة سوف تحل لك هذه المشكلة.",
+            "version": "1.0",
+            "folder_name": "Password generator"
+        }
+    ]
+}
