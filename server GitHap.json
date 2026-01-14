@@ -1,4 +1,5 @@
 {
-    "version": "1.0.0",
-    "url": "https://archive.org/download/git-hub-manager/GitHubManager.rar"
+    "version": "1.0.4",
+    "url": "https://yourwebsite.com/path/to/update.zip",
+    "exe_name": "GitHubManager.exe"
 }
