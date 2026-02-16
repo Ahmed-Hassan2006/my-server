@@ -1,10 +1,28 @@
 [
   {
-    "id": 1771251819054,
-    "date": 1771251819054,
-    "sender": "\u0627\u0644\u0646\u0638\u0627\u0645",
-    "title": "Welcome message",
-    "body": "Hello to all GitHub Manager users, we are looking forward to adding many things to help professional programmers deal with it as easily as possible and simplify everything for novice programmers. Please provide suggestions and share with us your opinions and comments through Nafeza about the program. You can contact me through WhatsApp, Telegram, or email.",
+    "id": 1001,
+    "sender": "System",
+    "title": "مرحباً بك في البرنامج",
+    "body": "أهلاً بك في الإصدار الجديد من مدير GitHub. هذه رسالة تجريبية من النظام للتأكد من الاتصال.",
+    "date": 1739000000,
+    "target": "all",
+    "users": []
+  },
+  {
+    "id": 1002,
+    "sender": "Admin",
+    "title": "تنبيه صيانة",
+    "body": "يرجى العلم أنه قد يتم إجراء صيانة للسيرفر قريباً، هذه رسالة تجربة.",
+    "date": 1739100000,
+    "target": "all",
+    "users": []
+  },
+  {
+    "id": 1003,
+    "sender": "Developer",
+    "title": "ميزة جديدة",
+    "body": "قمنا بتحسين نظام الإشعارات ليصبح أسرع وأكثر دقة. شكراً لاستخدامكم البرنامج.",
+    "date": 1739200000,
     "target": "all",
     "users": []
   }
