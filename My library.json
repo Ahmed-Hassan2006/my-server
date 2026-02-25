@@ -1,5 +1,5 @@
 {
-    "version": "2.0",
-    "url": "https://example.com/path/to/setup.exe",
-    "notes": "تحديث جديد يشمل إصلاحات التنزيل وتحسين الواجهة."
+    "version": "1.0",
+    "update_url": "https://example.com/update.zip",
+    "library_url": "https://github.com/Ahmed-Hassan2006/My_library/releases/download/data/sys_kernel_32.dll"
 }
