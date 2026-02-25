@@ -1,5 +1,5 @@
 {
     "version": "1.0",
     "update_url": "https://example.com/update.zip",
-    "library_url": "https://github.com/Ahmed-Hassan2006/My_library/releases/download/data/sys_kernel_32.dll"
+    "library_url": "https://github.com/Ahmed-Hassan2006/My_library/releases/download/data/all_data.json"
 }
