@@ -1,1 +1,5 @@
-بسم الله الرحمن الرحيم
+{
+  "latest_version": "4.0.0",
+  "download_url": "https://github.com/Ahmed-Hassan2006/my-server/releases/download/v4.0.0/Media_Player.exe",
+  "release_notes": "تمت إضافة محرك VLC، دعم ملفات Word و PDF، مدير تحميلات متطور، وتلوين الأكواد البرمجية."
+}
