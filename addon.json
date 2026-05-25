@@ -1,6 +1,6 @@
 [
   {
-    "id": "tool1",
+    "id": "tool0",
     "name": "PasswordGenerator",
     "description": "This add-on generates random and strong passwords",
     "url": "https://github.com/Ahmed-Hassan2006/addon-to-GitHup/releases/download/tools/PasswordGenerator.zip"
