@@ -1,8 +1,8 @@
 [
   {
-    "id": "my_first_addon",
-    "name": "إضافة رائعة رقم 1",
-    "description": "تقوم هذه الإضافة بعمل رائع جداً.",
-    "url": "رابط مباشر لتحميل الملف المضغوط zip هنا"
+    "id": "tool1",
+    "name": "PasswordGenerator",
+    "description": "This add-on generates random and strong passwords",
+    "url": "https://github.com/Ahmed-Hassan2006/addon-to-GitHup/blob/main/PasswordGenerator.zip"
   }
 ]
