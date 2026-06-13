@@ -1,0 +1,12 @@
+{
+  "عربي": [
+    "إضافة نافذة جديدة مخصصة للتحديثات.",
+    "حل مشكلة تسجيل الدخول في ويندوز 11.",
+    "دعم قراءة سجل التحديثات بلغات متعددة من السيرفر."
+  ],
+  "English": [
+    "Added a new dedicated updater window.",
+    "Fixed login SSL certificate issues on Windows 11.",
+    "Added support for fetching multilingual changelogs from the server."
+  ]
+}
