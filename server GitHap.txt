@@ -1,173 +1,406 @@
-{
-  "ar": [
-    "1. لوحة التحكم: بحث وفلترة فورية للمستودعات حسب الاسم والنوع والحالة، مع إمكانية الترتيب السلس والتنقل المباشر بين المنظمات.",
-    "2. إدارة الملفات والمستودع: دعم التحديد المتعدد للملفات، وتسريع عمليات النسخ والنقل، بالإضافة إلى إمكانية رفع الملفات الكبيرة (حتى 100 ميجابايت) مع مؤشر للتقدم وإمكانية استئناف الرفع.",
-    "3. المحرر - الكتابة والإكمال الذكي: تمييز بصري لمختلف لغات البرمجة، مع نظام اقتراحات ذكي متوافق بالكامل مع قارئات الشاشة وإمكانية تفعيل أو تعطيل الإكمال التلقائي.",
-    "4. المحرر - تجربة الاستخدام والأمان: فحص فوري للأخطاء، والتحكم في حجم الخط وترقيم السطور، مع ميزة الحفظ التلقائي القابل للتخصيص والتنبيه عند الإغلاق دون حفظ.",
-    "5. قسم المشاكل (Issues): تحسين البحث والفلترة السريعة، وإدارة شاملة لحالة التذاكر، مع دعم إرفاق الملفات وتسهيل الردود والاقتباسات.",
-    "6. طلبات السحب (Pull Requests): فلترة فورية حسب الحالة، واستعراض ملون وواضح لفروقات الأكواد مع إمكانية التعليق المباشر على الأسطر ومراجعة الطلبات بسلاسة.",
-    "7. إجراءات GitHub (Actions): واجهة ميسرة لمتابعة وتشغيل المهام وعرض السجلات والمخرجات، مع توفير قوالب جاهزة لإنشاء مسارات عمل جديدة بسهولة.",
-    "8. إدارة الفريق: تبويبات مخصصة لإدارة المتعاونين والفرق وصلاحيات الكود، مع إمكانية متابعة وإلغاء الدعوات المعلقة.",
-    "9. سجل التغييرات (History): تصفح مرن لكافة التعديلات السابقة مع دعم الصفحات، ومقارنة التغييرات، واستعراض شجرة الملفات والتراجع عن التعديلات بسهولة.",
-    "10. المفضلة: عرض موحد للمستودعات المفضلة والمثبتة مع سهولة الترتيب وإلغاء التثبيت.",
-    "11. الإعدادات والتخصيص: تنظيم شامل للإعدادات في 8 أقسام واضحة، مع إمكانية تخصيص كافة اختصارات لوحة المفاتيح، ودعم إنشاء واستعادة النسخ الاحتياطية بأمان.",
-    "12. سطر الأوامر السريع: نافذة مخصصة لتنفيذ أوامر GitHub بسرعة مع سهولة عرض ونسخ النتائج.",
-    "13. دعم اللغات: اكتمال وتحديث الترجمة لتشمل 29 لغة مختلفة لتوفير تجربة استخدام متكاملة."
-  ],
-  "arabic": [
-    "1. لوحة التحكم: بحث وفلترة فورية للمستودعات حسب الاسم والنوع والحالة، مع إمكانية الترتيب السلس والتنقل المباشر بين المنظمات.",
-    "2. إدارة الملفات والمستودع: دعم التحديد المتعدد للملفات، وتسريع عمليات النسخ والنقل، بالإضافة إلى إمكانية رفع الملفات الكبيرة (حتى 100 ميجابايت) مع مؤشر للتقدم وإمكانية استئناف الرفع.",
-    "3. المحرر - الكتابة والإكمال الذكي: تمييز بصري لمختلف لغات البرمجة، مع نظام اقتراحات ذكي متوافق بالكامل مع قارئات الشاشة وإمكانية تفعيل أو تعطيل الإكمال التلقائي.",
-    "4. المحرر - تجربة الاستخدام والأمان: فحص فوري للأخطاء، والتحكم في حجم الخط وترقيم السطور، مع ميزة الحفظ التلقائي القابل للتخصيص والتنبيه عند الإغلاق دون حفظ.",
-    "5. قسم المشاكل (Issues): تحسين البحث والفلترة السريعة، وإدارة شاملة لحالة التذاكر، مع دعم إرفاق الملفات وتسهيل الردود والاقتباسات.",
-    "6. طلبات السحب (Pull Requests): فلترة فورية حسب الحالة، واستعراض ملون وواضح لفروقات الأكواد مع إمكانية التعليق المباشر على الأسطر ومراجعة الطلبات بسلاسة.",
-    "7. إجراءات GitHub (Actions): واجهة ميسرة لمتابعة وتشغيل المهام وعرض السجلات والمخرجات، مع توفير قوالب جاهزة لإنشاء مسارات عمل جديدة بسهولة.",
-    "8. إدارة الفريق: تبويبات مخصصة لإدارة المتعاونين والفرق وصلاحيات الكود، مع إمكانية متابعة وإلغاء الدعوات المعلقة.",
-    "9. سجل التغييرات (History): تصفح مرن لكافة التعديلات السابقة مع دعم الصفحات، ومقارنة التغييرات، واستعراض شجرة الملفات والتراجع عن التعديلات بسهولة.",
-    "10. المفضلة: عرض موحد للمستودعات المفضلة والمثبتة مع سهولة الترتيب وإلغاء التثبيت.",
-    "11. الإعدادات والتخصيص: تنظيم شامل للإعدادات في 8 أقسام واضحة، مع إمكانية تخصيص كافة اختصارات لوحة المفاتيح، ودعم إنشاء واستعادة النسخ الاحتياطية بأمان.",
-    "12. سطر الأوامر السريع: نافذة مخصصة لتنفيذ أوامر GitHub بسرعة مع سهولة عرض ونسخ النتائج.",
-    "13. دعم اللغات: اكتمال وتحديث الترجمة لتشمل 29 لغة مختلفة لتوفير تجربة استخدام متكاملة."
-  ],
-  "en": [
-    "1. Dashboard: Instant search and filtering of repositories by name, type, and state, with smooth sorting and easy switching between organizations.",
-    "2. Repository & File Management: Multi-file selection support, faster copying/moving operations, and large file uploads (up to 100MB) with a progress indicator and resume capability.",
-    "3. Editor - Syntax & Smart Completion: Syntax highlighting for major programming languages, smart code suggestions fully compatible with screen readers, and customizable auto-complete.",
-    "4. Editor - Experience & Safety: Real-time error and bracket checking, font size adjustments, clear line numbering, customizable auto-save, and unsaved changes prompts on exit.",
-    "5. Issues: Fast search and filtering, complete issue status management, simplified file attachments, and streamlined replies with quotes.",
-    "6. Pull Requests: Instant status filtering, clear colored diff view with inline line commenting, and a smooth review workflow.",
-    "7. GitHub Actions: A dedicated interface to run workflows, view logs, download artifacts, and create new workflows using ready-made templates.",
-    "8. Team Management: Organized tabs for managing collaborators, teams, and code owners, with options to review and cancel pending invitations.",
-    "9. Commit History: Smooth pagination for past commits, diff comparisons, file tree inspection, and effortless change reverts.",
-    "10. Favorites: A unified list for favorite and pinned repositories with easy reordering and unpinning.",
-    "11. Settings & Customization: 8 well-organized settings tabs, fully customizable keyboard shortcuts, and secure backup export/import.",
-    "12. Quick Commands: A dedicated CLI window to execute GitHub commands quickly with easy output viewing and copying.",
-    "13. Multi-language Support: Completed and updated translations across 29 languages for an enhanced user experience."
-  ],
-  "english": [
-    "1. Dashboard: Instant search and filtering of repositories by name, type, and state, with smooth sorting and easy switching between organizations.",
-    "2. Repository & File Management: Multi-file selection support, faster copying/moving operations, and large file uploads (up to 100MB) with a progress indicator and resume capability.",
-    "3. Editor - Syntax & Smart Completion: Syntax highlighting for major programming languages, smart code suggestions fully compatible with screen readers, and customizable auto-complete.",
-    "4. Editor - Experience & Safety: Real-time error and bracket checking, font size adjustments, clear line numbering, customizable auto-save, and unsaved changes prompts on exit.",
-    "5. Issues: Fast search and filtering, complete issue status management, simplified file attachments, and streamlined replies with quotes.",
-    "6. Pull Requests: Instant status filtering, clear colored diff view with inline line commenting, and a smooth review workflow.",
-    "7. GitHub Actions: A dedicated interface to run workflows, view logs, download artifacts, and create new workflows using ready-made templates.",
-    "8. Team Management: Organized tabs for managing collaborators, teams, and code owners, with options to review and cancel pending invitations.",
-    "9. Commit History: Smooth pagination for past commits, diff comparisons, file tree inspection, and effortless change reverts.",
-    "10. Favorites: A unified list for favorite and pinned repositories with easy reordering and unpinning.",
-    "11. Settings & Customization: 8 well-organized settings tabs, fully customizable keyboard shortcuts, and secure backup export/import.",
-    "12. Quick Commands: A dedicated CLI window to execute GitHub commands quickly with easy output viewing and copying.",
-    "13. Multi-language Support: Completed and updated translations across 29 languages for an enhanced user experience."
-  ],
-  "bn": [
-    "1. ড্যাশবোর্ড: নাম, ধরন এবং অবস্থা অনুযায়ী রিপোজিটরিগুলোর তাৎক্ষণিক অনুসন্ধান ও ফিল্টারিং, সাথে মসৃণ সাজানো এবং প্রতিষ্ঠানের মধ্যে সহজে পরিবর্তন।",
-    "2. রিপোজিটরি ও ফাইল ব্যবস্থাপনা: একাধিক ফাইল নির্বাচন সমর্থন, দ্রুত কপি/মুভ অপারেশন এবং বড় ফাইল আপলোড (১০০MB পর্যন্ত) অগ্রগতি নির্দেশক ও পুনরায় শুরু করার ক্ষমতাসহ।",
-    "3. সম্পাদক - সিনট্যাক্স ও স্মার্ট কমপ্লিশন: প্রধান প্রোগ্রামিং ভাষার জন্য সিনট্যাক্স হাইলাইটিং, স্ক্রিন রিডারের সাথে সম্পূর্ণ সামঞ্জস্যপূর্ণ স্মার্ট কোড পরামর্শ এবং কাস্টমাইজযোগ্য অটো-কমপ্লিট।",
-    "4. সম্পাদক - অভিজ্ঞতা ও নিরাপত্তা: রিয়েল-টাইম ত্রুটি ও বন্ধনী পরীক্ষা, ফন্টের আকার সমন্বয়, পরিষ্কার লাইন নম্বর, কাস্টমাইজযোগ্য অটো-সেভ এবং প্রস্থানের সময় অসংরক্ষিত পরিবর্তনের সতর্কতা।",
-    "5. ইস্যু: দ্রুত অনুসন্ধান ও ফিল্টারিং, সম্পূর্ণ ইস্যু অবস্থা ব্যবস্থাপনা, সরলীকৃত ফাইল সংযুক্তি এবং উদ্ধৃতিসহ সহজ উত্তর।",
-    "6. পুল রিকোয়েস্ট: তাৎক্ষণিক অবস্থা ফিল্টারিং, স্পষ্ট রঙিন ডিফ ভিউ এবং ইনলাইন লাইন কমেন্টসহ মসৃণ পর্যালোচনা কর্মপ্রবাহ।",
-    "7. GitHub Actions: ওয়ার্কফ্লো চালানো, লগ দেখা, আর্টিফ্যাক্ট ডাউনলোড এবং তৈরি টেমপ্লেট ব্যবহার করে নতুন ওয়ার্কফ্লো তৈরি করার জন্য একটি ডেডিকেটেড ইন্টারফেস।",
-    "8. টিম ব্যবস্থাপনা: সহযোগী, টিম এবং কোড ওনারদের পরিচালনার জন্য সংগঠিত ট্যাব, মুলতুবি আমন্ত্রণ পর্যালোচনা ও বাতিলের বিকল্পসহ।",
-    "9. কমিট ইতিহাস: অতীত কমিটের জন্য মসৃণ পেজিনেশন, ডিফ তুলনা, ফাইল ট্রি পরিদর্শন এবং সহজে পরিবর্তন প্রত্যাবর্তন।",
-    "10. প্রিয়: প্রিয় ও পিন করা রিপোজিটরিগুলোর একীভূত তালিকা, সহজ পুনর্বিন্যাস ও আনপিনসহ।",
-    "11. সেটিংস ও কাস্টমাইজেশন: ৮টি সুসংগঠিত সেটিংস ট্যাব, সম্পূর্ণ কাস্টমাইজযোগ্য কীবোর্ড শর্টকাট এবং নিরাপদ ব্যাকআপ এক্সপোর্ট/ইম্পোর্ট।",
-    "12. কুইক কমান্ড: GitHub কমান্ড দ্রুত চালানোর জন্য ডেডিকেটেড CLI উইন্ডো, আউটপুট সহজে দেখা ও কপি করা যায়।",
-    "13. বহুভাষা সমর্থন: উন্নত ব্যবহারকারীর অভিজ্ঞতার জন্য ২৯টি ভাষায় অনুবাদ সম্পন্ন ও আপডেট করা হয়েছে।"
-  ],
-  "bangla": [
-    "1. ড্যাশবোর্ড: নাম, ধরন এবং অবস্থা অনুযায়ী রিপোজিটরিগুলোর তাৎক্ষণিক অনুসন্ধান ও ফিল্টারিং, সাথে মসৃণ সাজানো এবং প্রতিষ্ঠানের মধ্যে সহজে পরিবর্তন।",
-    "2. রিপোজিটরি ও ফাইল ব্যবস্থাপনা: একাধিক ফাইল নির্বাচন সমর্থন, দ্রুত কপি/মুভ অপারেশন এবং বড় ফাইল আপলোড (১০০MB পর্যন্ত) অগ্রগতি নির্দেশক ও পুনরায় শুরু করার ক্ষমতাসহ।",
-    "3. সম্পাদক - সিনট্যাক্স ও স্মার্ট কমপ্লিশন: প্রধান প্রোগ্রামিং ভাষার জন্য সিনট্যাক্স হাইলাইটিং, স্ক্রিন রিডারের সাথে সম্পূর্ণ সামঞ্জস্যপূর্ণ স্মার্ট কোড পরামর্শ এবং কাস্টমাইজযোগ্য অটো-কমপ্লিট।",
-    "4. সম্পাদক - অভিজ্ঞতা ও নিরাপত্তা: রিয়েল-টাইম ত্রুটি ও বন্ধনী পরীক্ষা, ফন্টের আকার সমন্বয়, পরিষ্কার লাইন নম্বর, কাস্টমাইজযোগ্য অটো-সেভ এবং প্রস্থানের সময় অসংরক্ষিত পরিবর্তনের সতর্কতা।",
-    "5. ইস্যু: দ্রুত অনুসন্ধান ও ফিল্টারিং, সম্পূর্ণ ইস্যু অবস্থা ব্যবস্থাপনা, সরলীকৃত ফাইল সংযুক্তি এবং উদ্ধৃতিসহ সহজ উত্তর।",
-    "6. পুল রিকোয়েস্ট: তাৎক্ষণিক অবস্থা ফিল্টারিং, স্পষ্ট রঙিন ডিফ ভিউ এবং ইনলাইন লাইন কমেন্টসহ মসৃণ পর্যালোচনা কর্মপ্রবাহ।",
-    "7. GitHub Actions: ওয়ার্কফ্লো চালানো, লগ দেখা, আর্টিফ্যাক্ট ডাউনলোড এবং তৈরি টেমপ্লেট ব্যবহার করে নতুন ওয়ার্কফ্লো তৈরি করার জন্য একটি ডেডিকেটেড ইন্টারফেস।",
-    "8. টিম ব্যবস্থাপনা: সহযোগী, টিম এবং কোড ওনারদের পরিচালনার জন্য সংগঠিত ট্যাব, মুলতুবি আমন্ত্রণ পর্যালোচনা ও বাতিলের বিকল্পসহ।",
-    "9. কমিট ইতিহাস: অতীত কমিটের জন্য মসৃণ পেজিনেশন, ডিফ তুলনা, ফাইল ট্রি পরিদর্শন এবং সহজে পরিবর্তন প্রত্যাবর্তন।",
-    "10. প্রিয়: প্রিয় ও পিন করা রিপোজিটরিগুলোর একীভূত তালিকা, সহজ পুনর্বিন্যাস ও আনপিনসহ।",
-    "11. সেটিংস ও কাস্টমাইজেশন: ৮টি সুসংগঠিত সেটিংস ট্যাব, সম্পূর্ণ কাস্টমাইজযোগ্য কীবোর্ড শর্টকাট এবং নিরাপদ ব্যাকআপ এক্সপোর্ট/ইম্পোর্ট।",
-    "12. কুইক কমান্ড: GitHub কমান্ড দ্রুত চালানোর জন্য ডেডিকেটেড CLI উইন্ডো, আউটপুট সহজে দেখা ও কপি করা যায়।",
-    "13. বহুভাষা সমর্থন: উন্নত ব্যবহারকারীর অভিজ্ঞতার জন্য ২৯টি ভাষায় অনুবাদ সম্পন্ন ও আপডেট করা হয়েছে।"
-  ],
-  "cs": [
-    "1. Dashboard: Okamžité vyhledávání a filtrování repozitářů podle názvu, typu a stavu, s plynulým řazením a snadným přepínáním mezi organizacemi.",
-    "2. Správa repozitářů a souborů: Podpora výběru více souborů, rychlejší kopírování/přesouvání a nahrávání velkých souborů (až 100 MB) s ukazatelem průběhu a možností obnovení.",
-    "3. Editor - syntaxe a chytré dokončování: Zvýrazňování syntaxe pro hlavní programovací jazyky, chytré návrhy kódu plně kompatibilní se čtečkami obrazovky a přizpůsobitelné automatické dokončování.",
-    "4. Editor - zážitek a bezpečnost: Kontrola chyb a závorek v reálném čase, úprava velikosti písma, přehledné číslování řádků, přizpůsobitelné automatické ukládání a upozornění na neuložené změny při zavření.",
-    "5. Issues: Rychlé vyhledávání a filtrování, kompletní správa stavů issue, zjednodušené přílohy souborů a plynulé odpovědi s citacemi.",
-    "6. Pull Requests: Okamžité filtrování podle stavu, přehledné barevné zobrazení diff s komentáři přímo u řádků a plynulý proces revize.",
-    "7. GitHub Actions: Dedikované rozhraní pro spouštění workflow, prohlížení logů, stahování artefaktů a vytváření nových workflow pomocí připravených šablon.",
-    "8. Správa týmu: Přehledné karty pro správu spolupracovníků, týmů a vlastníků kódu, s možností kontroly a zrušení čekajících pozvánek.",
-    "9. Historie commitů: Plynulé stránkování historie commitů, porovnání diff, prohlížení stromu souborů a snadné vrácení změn.",
-    "10. Oblíbené: Jednotný seznam oblíbených a připnutých repozitářů s snadným přeuspořádáním a odepnutím.",
-    "11. Nastavení a přizpůsobení: 8 dobře uspořádaných karet nastavení, plně přizpůsobitelné klávesové zkratky a bezpečný export/import záloh.",
-    "12. Rychlé příkazy: Dedikované okno CLI pro rychlé provádění příkazů GitHub s snadným zobrazením a kopírováním výstupu.",
-    "13. Vícejazyčná podpora: Dokončené a aktualizované překlady ve 29 jazycích pro lepší uživatelský zážitek."
-  ],
-  "czech": [
-    "1. Dashboard: Okamžité vyhledávání a filtrování repozitářů podle názvu, typu a stavu, s plynulým řazením a snadným přepínáním mezi organizacemi.",
-    "2. Správa repozitářů a souborů: Podpora výběru více souborů, rychlejší kopírování/přesouvání a nahrávání velkých souborů (až 100 MB) s ukazatelem průběhu a možností obnovení.",
-    "3. Editor - syntaxe a chytré dokončování: Zvýrazňování syntaxe pro hlavní programovací jazyky, chytré návrhy kódu plně kompatibilní se čtečkami obrazovky a přizpůsobitelné automatické dokončování.",
-    "4. Editor - zážitek a bezpečnost: Kontrola chyb a závorek v reálném čase, úprava velikosti písma, přehledné číslování řádků, přizpůsobitelné automatické ukládání a upozornění na neuložené změny při zavření.",
-    "5. Issues: Rychlé vyhledávání a filtrování, kompletní správa stavů issue, zjednodušené přílohy souborů a plynulé odpovědi s citacemi.",
-    "6. Pull Requests: Okamžité filtrování podle stavu, přehledné barevné zobrazení diff s komentáři přímo u řádků a plynulý proces revize.",
-    "7. GitHub Actions: Dedikované rozhraní pro spouštění workflow, prohlížení logů, stahování artefaktů a vytváření nových workflow pomocí připravených šablon.",
-    "8. Správa týmu: Přehledné karty pro správu spolupracovníků, týmů a vlastníků kódu, s možností kontroly a zrušení čekajících pozvánek.",
-    "9. Historie commitů: Plynulé stránkování historie commitů, porovnání diff, prohlížení stromu souborů a snadné vrácení změn.",
-    "10. Oblíbené: Jednotný seznam oblíbených a připnutých repozitářů s snadným přeuspořádáním a odepnutím.",
-    "11. Nastavení a přizpůsobení: 8 dobře uspořádaných karet nastavení, plně přizpůsobitelné klávesové zkratky a bezpečný export/import záloh.",
-    "12. Rychlé příkazy: Dedikované okno CLI pro rychlé provádění příkazů GitHub s snadným zobrazením a kopírováním výstupu.",
-    "13. Vícejazyčná podpora: Dokončené a aktualizované překlady ve 29 jazycích pro lepší uživatelský zážitek."
-  ],
-  "de": [
-    "1. Dashboard: Sofortige Suche und Filterung von Repositories nach Name, Typ und Status, mit reibungsloser Sortierung und einfachem Wechsel zwischen Organisationen.",
-    "2. Repository- und Dateiverwaltung: Unterstützung für Mehrfachauswahl von Dateien, schnellere Kopier-/Verschiebevorgänge und Upload großer Dateien (bis zu 100 MB) mit Fortschrittsanzeige und Wiederaufnahmefunktion.",
-    "3. Editor - Syntax & intelligente Vervollständigung: Syntaxhervorhebung für wichtige Programmiersprachen, intelligente Codevorschläge vollständig kompatibel mit Screenreadern und anpassbare automatische Vervollständigung.",
-    "4. Editor - Bedienung & Sicherheit: Echtzeit-Fehler- und Klammerprüfung, Schriftgrößenanpassung, klare Zeilennummerierung, anpassbares automatisches Speichern und Warnung bei nicht gespeicherten Änderungen beim Schließen.",
-    "5. Issues: Schnelle Suche und Filterung, vollständige Statusverwaltung für Issues, vereinfachte Dateianhänge und optimierte Antworten mit Zitaten.",
-    "6. Pull Requests: Sofortige Statusfilterung, klare farbige Diff-Ansicht mit Inline-Kommentaren und reibungsloser Review-Workflow.",
-    "7. GitHub Actions: Eine dedizierte Oberfläche zum Ausführen von Workflows, Anzeigen von Logs, Herunterladen von Artefakten und Erstellen neuer Workflows mit vorgefertigten Vorlagen.",
-    "8. Teamverwaltung: Organisierte Tabs zur Verwaltung von Mitarbeitern, Teams und Code-Ownern, mit Optionen zum Überprüfen und Stornieren ausstehender Einladungen.",
-    "9. Commit-Verlauf: Reibungslose Paginierung für vergangene Commits, Diff-Vergleiche, Dateibaum-Ansicht und müheloses Rückgängigmachen von Änderungen.",
-    "10. Favoriten: Einheitliche Liste für Favoriten und angeheftete Repositories mit einfacher Neuanordnung und Lösen.",
-    "11. Einstellungen & Anpassung: 8 übersichtliche Einstellungs-Tabs, vollständig anpassbare Tastenkürzel und sicherer Backup-Export/-Import.",
-    "12. Schnellbefehle: Ein dediziertes CLI-Fenster zum schnellen Ausführen von GitHub-Befehlen mit einfacher Anzeige und Kopieren der Ausgabe.",
-    "13. Mehrsprachige Unterstützung: Abgeschlossene und aktualisierte Übersetzungen in 29 Sprachen für ein verbessertes Benutzererlebnis."
-  ],
-  "german": [
-    "1. Dashboard: Sofortige Suche und Filterung von Repositories nach Name, Typ und Status, mit reibungsloser Sortierung und einfachem Wechsel zwischen Organisationen.",
-    "2. Repository- und Dateiverwaltung: Unterstützung für Mehrfachauswahl von Dateien, schnellere Kopier-/Verschiebevorgänge und Upload großer Dateien (bis zu 100 MB) mit Fortschrittsanzeige und Wiederaufnahmefunktion.",
-    "3. Editor - Syntax & intelligente Vervollständigung: Syntaxhervorhebung für wichtige Programmiersprachen, intelligente Codevorschläge vollständig kompatibel mit Screenreadern und anpassbare automatische Vervollständigung.",
-    "4. Editor - Bedienung & Sicherheit: Echtzeit-Fehler- und Klammerprüfung, Schriftgrößenanpassung, klare Zeilennummerierung, anpassbares automatisches Speichern und Warnung bei nicht gespeicherten Änderungen beim Schließen.",
-    "5. Issues: Schnelle Suche und Filterung, vollständige Statusverwaltung für Issues, vereinfachte Dateianhänge und optimierte Antworten mit Zitaten.",
-    "6. Pull Requests: Sofortige Statusfilterung, klare farbige Diff-Ansicht mit Inline-Kommentaren und reibungsloser Review-Workflow.",
-    "7. GitHub Actions: Eine dedizierte Oberfläche zum Ausführen von Workflows, Anzeigen von Logs, Herunterladen von Artefakten und Erstellen neuer Workflows mit vorgefertigten Vorlagen.",
-    "8. Teamverwaltung: Organisierte Tabs zur Verwaltung von Mitarbeitern, Teams und Code-Ownern, mit Optionen zum Überprüfen und Stornieren ausstehender Einladungen.",
-    "9. Commit-Verlauf: Reibungslose Paginierung für vergangene Commits, Diff-Vergleiche, Dateibaum-Ansicht und müheloses Rückgängigmachen von Änderungen.",
-    "10. Favoriten: Einheitliche Liste für Favoriten und angeheftete Repositories mit einfacher Neuanordnung und Lösen.",
-    "11. Einstellungen & Anpassung: 8 übersichtliche Einstellungs-Tabs, vollständig anpassbare Tastenkürzel und sicherer Backup-Export/-Import.",
-    "12. Schnellbefehle: Ein dediziertes CLI-Fenster zum schnellen Ausführen von GitHub-Befehlen mit einfacher Anzeige und Kopieren der Ausgabe.",
-    "13. Mehrsprachige Unterstützung: Abgeschlossene und aktualisierte Übersetzungen in 29 Sprachen für ein verbessertes Benutzererlebnis."
-  ],
-  "el": [
-    "1. Πίνακας ελέγχου: Άμεση αναζήτηση και φιλτράρισμα αποθετηρίων κατά όνομα, τύπο και κατάσταση, με ομαλή ταξινόμηση και εύκολη εναλλαγή μεταξύ οργανισμών.",
-    "2. Διαχείριση αποθετηρίων και αρχείων: Υποστήριξη επιλογής πολλαπλών αρχείων, ταχύτερες λειτουργίες αντιγραφής/μετακίνησης και μεταφόρτωση μεγάλων αρχείων (έως 100MB) με ένδειξη προόδου και δυνατότητα συνέχισης.",
-    "3. Επεξεργαστής - Σύνταξη & Έξυπνη συμπλήρωση: Επισήμανση σύνταξης για κύριες γλώσσες προγραμματισμού, έξυπνες προτάσεις κώδικα πλήρως συμβατές με αναγνώστες οθόνης και προσαρμόσιμη αυτόματη συμπλήρωση.",
-    "4. Επεξεργαστής - Εμπειρία & Ασφάλεια: Έλεγχος σφαλμάτων και αγκύλων σε πραγματικό χρόνο, ρύθμιση μεγέθους γραμματοσειράς, σαφής αρίθμηση γραμμών, προσαρμόσιμη αυτόματη αποθήκευση και προειδοποίηση για μη αποθηκευμένες αλλαγές κατά το κλείσιμο.",
-    "5. Ζητήματα: Γρήγορη αναζήτηση και φιλτράρισμα, πλήρης διαχείριση κατάστασης ζητημάτων, απλοποιημένα συνημμένα αρχείων και βελτιωμένες απαντήσεις με παραθέσεις.",
-    "6. Pull Requests: Άμεσο φιλτράρισμα κατάστασης, καθαρή έγχρωμη προβολή diff με σχόλια inline και ομαλή ροή ελέγχου.",
-    "7. GitHub Actions: Ειδική διεπαφή για εκτέλεση ροών εργασίας, προβολή αρχείων καταγραφής, λήψη artifacts και δημιουργία νέων ροών με έτοιμα πρότυπα.",
-    "8. Διαχείριση ομάδας: Οργανωμένες καρτέλες για διαχείριση συνεργατών, ομάδων και κατόχων κώδικα, με επιλογές ελέγχου και ακύρωσης εκκρεμών προσκλήσεων.",
-    "9. Ιστορικό commits: Ομαλή σελιδοποίηση για προηγούμενα commits, σύγκριση diff, προβολή δέντρου αρχείων και εύκολη επαναφορά αλλαγών.",
-    "10. Αγαπημένα: Ενοποιημένη λίστα αγαπημένων και καρφιτσωμένων αποθετηρίων με εύκολη αναδιάταξη και ξεκαρφίτσωμα.",
-    "11. Ρυθμίσεις & Προσαρμογή: 8 καλά οργανωμένες καρτέλες ρυθμίσεων, πλήρως προσαρμόσιμες συντομεύσεις πληκτρολογίου και ασφαλής εξαγωγή/εισαγωγή αντιγράφων ασφαλείας.",
-    "12. Γρήγορες εντολές: Ειδικό παράθυρο CLI για γρήγορη εκτέλεση εντολών GitHub με εύκολη προβολή και αντιγραφή εξόδου.",
-    "13. Υποστήριξη πολλών γλωσσών: Ολοκληρωμένες και ενημερωμένες μεταφράσεις σε 29 γλώσσες για βελτιωμένη εμπειρία χρήστη."
-  ],
-  "greek": [
-    "1. Πίνακας ελέγχου: Άμεση αναζήτηση και φιλτράρισμα αποθετηρίων κατά όνομα, τύπο και κατάσταση, με ομαλή ταξινόμηση και εύκολη εναλλαγή μεταξύ οργανισμών.",
-    "2. Διαχείριση αποθετηρίων και αρχείων: Υποστήριξη επιλογής πολλαπλών αρχείων, ταχύτερες λειτουργίες αντιγραφής/μετακίνησης και μεταφόρτωση μεγάλων αρχείων (έως 100MB) με ένδειξη προόδου και δυνατότητα συνέχισης.",
-    "3. Επεξεργαστής - Σύνταξη & Έξυπνη συμπλήρωση: Επισήμανση σύνταξης για κύριες γλώσσες προγραμματισμού, έξυπνες προτάσεις κώδικα πλήρως συμβατές με αναγνώστες οθόνης και προσαρμόσιμη αυτόματη συμπλήρωση.",
-    "4. Επεξεργαστής - Εμπειρία & Ασφάλεια: Έλεγχος σφαλμάτων και αγκύλων σε πραγματικό χρόνο, ρύθμιση μεγέθους γραμματοσειράς, σαφής αρίθμηση γραμμών, προσαρμόσιμη αυτόματη αποθήκευση και προειδοποίηση για μη αποθηκευμένες αλλαγές κατά το κλείσιμο.",
-    "5. Ζητήματα: Γρήγορη αναζήτηση και φιλτράρισμα, πλήρης διαχείριση κατάστασης ζητημάτων, απλοποιημένα συνημμένα αρχείων και βελτιωμένες απαντήσεις με παραθέσεις.",
-    "6. Pull Requests: Άμεσο φιλτράρισμα κατάστασης, καθαρή έγχρωμη προβολή diff με σχόλια inline και ο
+"ar"
+1. لوحة التحكم: بحث وفلترة فورية للمستودعات حسب الاسم والنوع والحالة، مع إمكانية الترتيب السلس والتنقل المباشر بين المنظمات.
+2. إدارة الملفات والمستودع: دعم التحديد المتعدد للملفات، وتسريع عمليات النسخ والنقل، بالإضافة إلى إمكانية رفع الملفات الكبيرة (حتى 100 ميجابايت) مع مؤشر للتقدم وإمكانية استئناف الرفع.
+3. المحرر - الكتابة والإكمال الذكي: تمييز بصري لمختلف لغات البرمجة، مع نظام اقتراحات ذكي متوافق بالكامل مع قارئات الشاشة وإمكانية تفعيل أو تعطيل الإكمال التلقائي.
+4. المحرر - تجربة الاستخدام والأمان: فحص فوري للأخطاء، والتحكم في حجم الخط وترقيم السطور، مع ميزة الحفظ التلقائي القابل للتخصيص والتنبيه عند الإغلاق دون حفظ.
+5. قسم المشاكل (Issues): تحسين البحث والفلترة السريعة، وإدارة شاملة لحالة التذاكر، مع دعم إرفاق الملفات وتسهيل الردود والاقتباسات.
+6. طلبات السحب (Pull Requests): فلترة فورية حسب الحالة، واستعراض ملون وواضح لفروقات الأكواد مع إمكانية التعليق المباشر على الأسطر ومراجعة الطلبات بسلاسة.
+7. إجراءات GitHub (Actions): واجهة ميسرة لمتابعة وتشغيل المهام وعرض السجلات والمخرجات، مع توفير قوالب جاهزة لإنشاء مسارات عمل جديدة بسهولة.
+8. إدارة الفريق: تبويبات مخصصة لإدارة المتعاونين والفرق وصلاحيات الكود، مع إمكانية متابعة وإلغاء الدعوات المعلقة.
+9. سجل التغييرات (History): تصفح مرن لكافة التعديلات السابقة مع دعم الصفحات، ومقارنة التغييرات، واستعراض شجرة الملفات والتراجع عن التعديلات بسهولة.
+10. المفضلة: عرض موحد للمستودعات المفضلة والمثبتة مع سهولة الترتيب وإلغاء التثبيت.
+11. الإعدادات والتخصيص: تنظيم شامل للإعدادات في 8 أقسام واضحة، مع إمكانية تخصيص كافة اختصارات لوحة المفاتيح، ودعم إنشاء واستعادة النسخ الاحتياطية بأمان.
+12. سطر الأوامر السريع: نافذة مخصصة لتنفيذ أوامر GitHub بسرعة مع سهولة عرض ونسخ النتائج.
+13. دعم اللغات: اكتمال وتحديث الترجمة لتشمل 29 لغة مختلفة لتوفير تجربة استخدام متكاملة.
+"en"
+1. Dashboard: Instant search and filtering for repositories by name, type and status, with smooth sorting and direct navigation between organizations.
+2. File & Repository Management: Multi-select file support, accelerated copy and move operations, plus large file upload (up to 100 MB) with progress indicator and resumable upload.
+3. Editor - Writing & Smart Completion: Visual syntax highlighting for various programming languages, with a smart suggestion system fully compatible with screen readers and ability to enable/disable auto-completion.
+4. Editor - Usability & Safety: Instant error checking, font size and line number control, with customizable auto-save and warning when closing without saving.
+5. Issues: Improved quick search and filtering, comprehensive ticket status management, with file attachment support and easy replies and quotes.
+6. Pull Requests: Instant filtering by status, colorful and clear code diff view with ability to comment directly on lines and review requests smoothly.
+7. GitHub Actions: Streamlined interface to track and run jobs and view logs and outputs, with ready-made templates to easily create new workflows.
+8. Team Management: Dedicated tabs for managing collaborators, teams and code permissions, with ability to track and cancel pending invitations.
+9. History: Flexible browsing of all previous changes with pagination support, comparing changes, viewing file tree and easily reverting commits.
+10. Favorites: Unified view for starred and pinned repositories with easy sorting and unpinning.
+11. Settings & Customization: Comprehensive organization of settings into 8 clear sections, with ability to customize all keyboard shortcuts, and safely create and restore backups.
+12. Quick Command Line: Dedicated window to execute GitHub commands quickly with easy viewing and copying of results.
+13. Language Support: Complete and updated translation covering 29 different languages for a fully integrated user experience.
+"es"
+1. Panel de control: búsqueda y filtrado instantáneo de repositorios por nombre, tipo y estado, con ordenación fluida y navegación directa entre organizaciones.
+2. Gestión de archivos y repositorio: soporte para selección múltiple de archivos, operaciones de copia y traslado aceleradas, además de carga de archivos grandes (hasta 100 MB) con indicador de progreso y reanudación.
+3. Editor - Escritura y autocompletado inteligente: resaltado visual para varios lenguajes de programación, con sistema de sugerencias inteligente totalmente compatible con lectores de pantalla y opción para activar o desactivar el autocompletado.
+4. Editor - Usabilidad y seguridad: verificación instantánea de errores, control de tamaño de fuente y numeración de líneas, con guardado automático personalizable y aviso al cerrar sin guardar.
+5. Sección de incidencias (Issues): búsqueda y filtrado rápido mejorados, gestión completa del estado de tickets, con soporte para adjuntar archivos y facilitar respuestas y citas.
+6. Solicitudes de extracción (Pull Requests): filtrado instantáneo por estado, vista coloreada y clara de diferencias de código con posibilidad de comentar directamente en las líneas y revisar solicitudes con fluidez.
+7. Acciones de GitHub (Actions): interfaz simplificada para seguir y ejecutar tareas y ver registros y salidas, con plantillas listas para crear nuevos flujos de trabajo fácilmente.
+8. Gestión de equipo: pestañas dedicadas para gestionar colaboradores, equipos y permisos de código, con posibilidad de seguir y cancelar invitaciones pendientes.
+9. Historial (History): navegación flexible por todos los cambios anteriores con soporte de paginación, comparación de cambios, visualización del árbol de archivos y reversión fácil de commits.
+10. Favoritos: vista unificada de repositorios favoritos y fijados con facilidad para ordenar y quitar fijados.
+11. Configuración y personalización: organización completa de la configuración en 8 secciones claras, con posibilidad de personalizar todos los atajos de teclado y crear y restaurar copias de seguridad de forma segura.
+12. Línea de comandos rápida: ventana dedicada para ejecutar comandos de GitHub rápidamente con fácil visualización y copia de resultados.
+13. Soporte de idiomas: traducción completa y actualizada que cubre 29 idiomas diferentes para una experiencia de usuario totalmente integrada.
+"fr"
+1. Tableau de bord : recherche et filtrage instantanés des dépôts par nom, type et statut, avec tri fluide et navigation directe entre les organisations.
+2. Gestion des fichiers et du dépôt : prise en charge de la sélection multiple de fichiers, opérations de copie et de déplacement accélérées, plus téléversement de fichiers volumineux (jusqu'à 100 Mo) avec indicateur de progression et reprise possible.
+3. Éditeur - Écriture et complétion intelligente : coloration syntaxique visuelle pour divers langages de programmation, avec système de suggestions intelligent entièrement compatible avec les lecteurs d'écran et possibilité d'activer/désactiver l'autocomplétion.
+4. Éditeur - Utilisabilité et sécurité : vérification instantanée des erreurs, contrôle de la taille de police et de la numérotation des lignes, avec sauvegarde automatique personnalisable et alerte à la fermeture sans sauvegarde.
+5. Section des tickets (Issues) : recherche et filtrage rapides améliorés, gestion complète de l'état des tickets, avec prise en charge des pièces jointes et facilité de réponses et citations.
+6. Demandes de fusion (Pull Requests) : filtrage instantané par statut, affichage coloré et clair des différences de code avec possibilité de commenter directement sur les lignes et d'examiner les demandes en douceur.
+7. Actions GitHub (Actions) : interface simplifiée pour suivre et exécuter les tâches et afficher les journaux et sorties, avec modèles prêts à créer facilement de nouveaux workflows.
+8. Gestion d'équipe : onglets dédiés à la gestion des collaborateurs, des équipes et des permissions de code, avec possibilité de suivre et d'annuler les invitations en attente.
+9. Historique (History) : navigation flexible dans tous les changements précédents avec prise en charge de la pagination, comparaison des changements, affichage de l'arborescence des fichiers et annulation facile des commits.
+10. Favoris : vue unifiée des dépôts favoris et épinglés avec tri et désépinglage faciles.
+11. Paramètres et personnalisation : organisation complète des paramètres en 8 sections claires, avec possibilité de personnaliser tous les raccourcis clavier et de créer et restaurer des sauvegardes en toute sécurité.
+12. Ligne de commande rapide : fenêtre dédiée pour exécuter rapidement les commandes GitHub avec affichage et copie faciles des résultats.
+13. Support linguistique : traduction complète et mise à jour couvrant 29 langues différentes pour une expérience utilisateur totalement intégrée.
+"pt"
+1. Painel de controle: pesquisa e filtragem instantânea de repositórios por nome, tipo e estado, com ordenação suave e navegação direta entre organizações.
+2. Gestão de ficheiros e repositório: suporte para seleção múltipla de ficheiros, operações de cópia e movimentação aceleradas, além de carregamento de ficheiros grandes (até 100 MB) com indicador de progresso e possibilidade de retomar.
+3. Editor - Escrita e preenchimento inteligente: destaque visual para várias linguagens de programação, com sistema de sugestões inteligente totalmente compatível com leitores de ecrã e opção para ativar/desativar o autocompletar.
+4. Editor - Usabilidade e segurança: verificação instantânea de erros, controlo do tamanho da fonte e numeração de linhas, com gravação automática personalizável e aviso ao fechar sem guardar.
+5. Secção de problemas (Issues): pesquisa e filtragem rápidas melhoradas, gestão completa do estado dos tickets, com suporte para anexar ficheiros e facilitar respostas e citações.
+6. Pedidos de fusão (Pull Requests): filtragem instantânea por estado, visualização colorida e clara das diferenças de código com possibilidade de comentar diretamente nas linhas e rever pedidos com fluidez.
+7. Ações do GitHub (Actions): interface simplificada para acompanhar e executar tarefas e ver registos e saídas, com modelos prontos para criar facilmente novos fluxos de trabalho.
+8. Gestão de equipa: separadores dedicados para gerir colaboradores, equipas e permissões de código, com possibilidade de acompanhar e cancelar convites pendentes.
+9. Histórico (History): navegação flexível por todas as alterações anteriores com suporte a paginação, comparação de alterações, visualização da árvore de ficheiros e reversão fácil de commits.
+10. Favoritos: vista unificada de repositórios favoritos e fixados com facilidade de ordenação e remoção de fixação.
+11. Definições e personalização: organização abrangente das definições em 8 secções claras, com possibilidade de personalizar todos os atalhos de teclado e criar e restaurar cópias de segurança com segurança.
+12. Linha de comandos rápida: janela dedicada para executar comandos GitHub rapidamente com fácil visualização e cópia de resultados.
+13. Suporte de idiomas: tradução completa e atualizada abrangendo 29 idiomas diferentes para uma experiência de utilizador totalmente integrada.
+"tr"
+1. Kontrol Paneli: Depoları ad, tür ve duruma göre anında arama ve filtreleme, akıcı sıralama ve organizasyonlar arasında doğrudan gezinme imkanı.
+2. Dosya ve Depo Yönetimi: Çoklu dosya seçimi desteği, hızlandırılmış kopyalama ve taşıma işlemleri, ayrıca ilerleme göstergesi ve kaldığı yerden devam etme ile büyük dosya yükleme (100 MB'a kadar).
+3. Düzenleyici - Yazma ve Akıllı Tamamlama: Çeşitli programlama dilleri için görsel sözdizimi vurgulama, ekran okuyucularla tamamen uyumlu akıllı öneri sistemi ve otomatik tamamlamayı etkinleştirme/devre dışı bırakma.
+4. Düzenleyici - Kullanılabilirlik ve Güvenlik: Anında hata denetimi, yazı tipi boyutu ve satır numarası kontrolü, özelleştirilebilir otomatik kaydetme ve kaydetmeden kapatırken uyarı.
+5. Sorunlar (Issues) Bölümü: Geliştirilmiş hızlı arama ve filtreleme, kapsamlı bilet durumu yönetimi, dosya eki desteği ve kolay yanıtlar ve alıntılar.
+6. Çekme İstekleri (Pull Requests): Duruma göre anında filtreleme, satırlar üzerine doğrudan yorum yapma ve istekleri sorunsuz inceleme imkanı sunan renkli ve net kod farkı görünümü.
+7. GitHub Eylemleri (Actions): İşleri takip etme ve çalıştırma, günlükleri ve çıktıları görüntüleme için kolaylaştırılmış arayüz, yeni iş akışları oluşturmak için hazır şablonlar.
+8. Ekip Yönetimi: İşbirlikçileri, ekipleri ve kod izinlerini yönetmek için özel sekmeler, bekleyen davetleri takip etme ve iptal etme imkanı.
+9. Geçmiş (History): Sayfalama desteğiyle tüm önceki değişikliklerde esnek gezinme, değişiklikleri karşılaştırma, dosya ağacını görüntüleme ve commit'leri kolayca geri alma.
+10. Favoriler: Yıldızlı ve sabitlenmiş depolar için birleşik görünüm, kolay sıralama ve sabitlemeyi kaldırma.
+11. Ayarlar ve Özelleştirme: 8 net bölüme ayrılmış kapsamlı ayar organizasyonu, tüm klavye kısayollarını özelleştirme ve yedekleri güvenle oluşturup geri yükleme.
+12. Hızlı Komut Satırı: GitHub komutlarını hızla çalıştırmak için özel pencere, sonuçları kolay görüntüleme ve kopyalama.
+13. Dil Desteği: Tam entegre kullanıcı deneyimi için 29 farklı dili kapsayan eksiksiz ve güncel çeviri.
+"vi"
+1. Bảng điều khiển: tìm kiếm và lọc tức thì kho lưu trữ theo tên, loại và trạng thái, với khả năng sắp xếp mượt mà và điều hướng trực tiếp giữa các tổ chức.
+2. Quản lý tệp và kho lưu trữ: hỗ trợ chọn nhiều tệp, tăng tốc sao chép và di chuyển, cùng khả năng tải tệp lớn (lên tới 100 MB) với chỉ báo tiến trình và khả năng tiếp tục tải.
+3. Trình soạn thảo - Viết và tự động hoàn thành thông minh: tô sáng cú pháp trực quan cho nhiều ngôn ngữ lập trình, với hệ thống gợi ý thông minh hoàn toàn tương thích với trình đọc màn hình và khả năng bật/tắt tự động hoàn thành.
+4. Trình soạn thảo - Trải nghiệm và an toàn: kiểm tra lỗi tức thì, điều chỉnh cỡ chữ và đánh số dòng, với tính năng tự động lưu có thể tùy chỉnh và cảnh báo khi đóng mà chưa lưu.
+5. Mục vấn đề (Issues): cải thiện tìm kiếm và lọc nhanh, quản lý toàn diện trạng thái ticket, hỗ trợ đính kèm tệp và dễ dàng trả lời và trích dẫn.
+6. Yêu cầu kéo (Pull Requests): lọc tức thì theo trạng thái, xem khác biệt mã màu sắc rõ ràng với khả năng bình luận trực tiếp trên dòng và xem xét yêu cầu mượt mà.
+7. Hành động GitHub (Actions): giao diện tinh gọn để theo dõi và chạy tác vụ và xem nhật ký và đầu ra, với các mẫu sẵn có để dễ dàng tạo quy trình làm việc mới.
+8. Quản lý nhóm: các tab riêng để quản lý cộng tác viên, nhóm và quyền mã, với khả năng theo dõi và hủy lời mời đang chờ.
+9. Lịch sử (History): duyệt linh hoạt mọi thay đổi trước đó với hỗ trợ phân trang, so sánh thay đổi, xem cây tệp và hoàn tác thay đổi dễ dàng.
+10. Yêu thích: chế độ xem thống nhất cho kho lưu trữ yêu thích và đã ghim với khả năng sắp xếp và bỏ ghim dễ dàng.
+11. Cài đặt & Tùy chỉnh: tổ chức toàn diện cài đặt thành 8 mục rõ ràng, với khả năng tùy chỉnh mọi phím tắt, và tạo và khôi phục bản sao lưu an toàn.
+12. Dòng lệnh nhanh: cửa sổ chuyên dụng để thực thi lệnh GitHub nhanh chóng với khả năng xem và sao chép kết quả dễ dàng.
+13. Hỗ trợ ngôn ngữ: bản dịch hoàn chỉnh và cập nhật bao phủ 29 ngôn ngữ khác nhau cho trải nghiệm người dùng tích hợp đầy đủ.
+"zh-CN"
+1. 控制面板：按名称、类型和状态即时搜索和过滤仓库，支持流畅排序和在组织之间直接导航。
+2. 文件与仓库管理：支持多文件选择，加速复制和移动操作，并支持大文件上传（高达100 MB）带进度指示和断点续传。
+3. 编辑器 - 写作与智能补全：支持多种编程语言的视觉语法高亮，智能提示系统完全兼容屏幕阅读器，可启用或禁用自动补全。
+4. 编辑器 - 使用体验与安全：即时错误检查、字体大小和行号控制，可自定义自动保存并在未保存关闭时提醒。
+5. 问题（Issues）版块：改进的快速搜索和过滤，全面管理工单状态，支持附件上传及便捷回复与引用。
+6. 拉取请求（Pull Requests）：按状态即时过滤，彩色清晰的代码差异视图，支持直接在行上评论并流畅审查请求。
+7. GitHub Actions：简化的界面用于跟踪和运行任务、查看日志和输出，并提供现成模板轻松创建新工作流。
+8. 团队管理：专用标签页用于管理协作者、团队和代码权限，可跟踪和取消待处理的邀请。
+9. 历史记录（History）：灵活浏览所有历史更改，支持分页、对比更改、查看文件树并轻松回退提交。
+10. 收藏：统一展示已收藏和已固定的仓库，支持轻松排序和取消固定。
+11. 设置与自定义：将设置全面整理为8个清晰分类，可自定义所有键盘快捷键，并安全地创建和恢复备份。
+12. 快速命令行：专用窗口可快速执行GitHub命令，方便查看和复制结果。
+13. 语言支持：完整更新的翻译涵盖29种不同语言，提供完全集成的用户体验。
+"zh-TW"
+1. 控制面板：依名稱、類型和狀態即時搜尋和篩選儲存庫，支援流暢排序並可在組織之間直接導覽。
+2. 檔案與儲存庫管理：支援多檔選擇，加速複製和移動操作，並支援大檔案上傳（高達100 MB）含進度指示和續傳功能。
+3. 編輯器 - 寫作與智慧補全：支援多種程式語言的視覺語法突顯，智慧提示系統完全相容螢幕閱讀器，可啟用或停用自動完成。
+4. 編輯器 - 使用體驗與安全：即時錯誤檢查、字型大小和行號控制，可自訂自動儲存並在未儲存關閉時提醒。
+5. 問題（Issues）區塊：改進的快速搜尋和篩選，全面管理工單狀態，支援附件上傳及便捷回覆與引用。
+6. 拉取請求（Pull Requests）：依狀態即時篩選，彩色清晰的程式碼差異檢視，支援直接在行上留言並流暢審查請求。
+7. GitHub Actions：簡化介面用於追蹤和執行任務、檢視日誌和輸出，並提供現成範本輕鬆建立新工作流程。
+8. 團隊管理：專用分頁用於管理協作者、團隊和程式碼權限，可追蹤和取消待處理的邀請。
+9. 歷史記錄（History）：靈活瀏覽所有歷史變更，支援分頁、對比變更、檢視檔案樹並輕鬆還原提交。
+10. 收藏：統一顯示已收藏和已固定的儲存庫，支援輕鬆排序和取消固定。
+11. 設定與自訂：將設定全面整理為8個清晰分類，可自訂所有鍵盤快捷鍵，並安全地建立和還原備份。
+12. 快速命令列：專用視窗可快速執行GitHub命令，方便檢視和複製結果。
+13. 語言支援：完整更新的翻譯涵蓋29種不同語言，提供完全整合的使用者體驗。
+"ru"
+1. Панель управления: мгновенный поиск и фильтрация репозиториев по имени, типу и статусу, с плавной сортировкой и прямой навигацией между организациями.
+2. Управление файлами и репозиторием: поддержка множественного выбора файлов, ускоренные операции копирования и перемещения, а также загрузка больших файлов (до 100 МБ) с индикатором прогресса и возможностью возобновления.
+3. Редактор — написание и умное автодополнение: визуальная подсветка синтаксиса для разных языков программирования, с умной системой подсказок полностью совместимой с экранными читалками и возможностью включить/отключить автодополнение.
+4. Редактор — удобство и безопасность: мгновенная проверка ошибок, управление размером шрифта и нумерацией строк, с настраиваемым автосохранением и предупреждением при закрытии без сохранения.
+5. Раздел задач (Issues): улучшенный быстрый поиск и фильтрация, комплексное управление статусами тикетов, с поддержкой вложений файлов и удобными ответами и цитатами.
+6. Запросы на слияние (Pull Requests): мгновенная фильтрация по статусу, цветной и четкий просмотр diff кода с возможностью комментировать прямо на строках и плавно рассматривать запросы.
+7. Действия GitHub (Actions): удобный интерфейс для отслеживания и запуска задач и просмотра логов и выводов, с готовыми шаблонами для легкого создания новых рабочих процессов.
+8. Управление командой: отдельные вкладки для управления соавторами, командами и правами на код, с возможностью отслеживать и отменять ожидающие приглашения.
+9. История (History): гибкий просмотр всех предыдущих изменений с поддержкой пагинации, сравнение изменений, просмотр дерева файлов и легкий откат коммитов.
+10. Избранное: единый вид для избранных и закрепленных репозиториев с легкой сортировкой и откреплением.
+11. Настройки и персонализация: комплексная организация настроек в 8 четких разделов, с возможностью настройки всех горячих клавиш и безопасного создания и восстановления резервных копий.
+12. Быстрая командная строка: отдельное окно для быстрого выполнения команд GitHub с удобным просмотром и копированием результатов.
+13. Языковая поддержка: полный и обновленный перевод, охватывающий 29 различных языков для полностью интегрированного опыта.
+"de"
+1. Dashboard: Sofortige Suche und Filterung von Repositories nach Name, Typ und Status, mit reibungsloser Sortierung und direkter Navigation zwischen Organisationen.
+2. Datei- & Repository-Verwaltung: Mehrfachauswahl von Dateien, beschleunigte Kopier- und Verschiebevorgänge, plus Hochladen großer Dateien (bis 100 MB) mit Fortschrittsanzeige und Fortsetzung.
+3. Editor – Schreiben & intelligente Vervollständigung: Visuelle Syntaxhervorhebung für verschiedene Programmiersprachen, mit intelligentem Vorschlagssystem voll kompatibel mit Screenreadern und Möglichkeit zur Aktivierung/Deaktivierung der Autovervollständigung.
+4. Editor – Bedienung & Sicherheit: Sofortige Fehlerprüfung, Steuerung von Schriftgröße und Zeilennummern, mit anpassbarem automatischem Speichern und Warnung beim Schließen ohne Speichern.
+5. Issues-Bereich: Verbesserte Schnellsuche und Filterung, umfassende Ticket-Statusverwaltung, mit Dateianhang-Unterstützung und einfachen Antworten und Zitaten.
+6. Pull Requests: Sofortige Filterung nach Status, farbige und klare Code-Diff-Ansicht mit Möglichkeit, direkt auf Zeilen zu kommentieren und Anfragen reibungslos zu prüfen.
+7. GitHub Actions: Optimierte Oberfläche zum Verfolgen und Ausführen von Jobs und Anzeigen von Logs und Ausgaben, mit fertigen Vorlagen zum einfachen Erstellen neuer Workflows.
+8. Teamverwaltung: Eigene Tabs zur Verwaltung von Mitarbeitern, Teams und Code-Berechtigungen, mit Möglichkeit, ausstehende Einladungen zu verfolgen und zu stornieren.
+9. Verlauf (History): Flexibles Durchsuchen aller früheren Änderungen mit Paginierung, Vergleichen von Änderungen, Anzeigen des Dateibaums und einfachem Zurücksetzen von Commits.
+10. Favoriten: Einheitliche Ansicht für favorisierte und angeheftete Repositories mit einfacher Sortierung und Loslösung.
+11. Einstellungen & Anpassung: Umfassende Organisation der Einstellungen in 8 klare Abschnitte, mit Möglichkeit, alle Tastenkombinationen anzupassen und Backups sicher zu erstellen und wiederherzustellen.
+12. Schnelle Befehlszeile: Eigenes Fenster zum schnellen Ausführen von GitHub-Befehlen mit einfacher Anzeige und Kopie der Ergebnisse.
+13. Sprachunterstützung: Vollständige und aktualisierte Übersetzung für 29 verschiedene Sprachen für ein voll integriertes Benutzererlebnis.
+"ja"
+1. ダッシュボード：リポジトリを名前、タイプ、ステータスで即時検索・フィルタリング、スムーズな並べ替えと組織間の直接ナビゲーション。
+2. ファイル＆リポジトリ管理：複数ファイル選択のサポート、コピーと移動の高速化、さらに大容量ファイル（最大100MB）のアップロードに対応（進捗表示と再開可能）。
+3. エディタ - 執筆とスマート補完：様々なプログラミング言語の視覚的シンタックスハイライト、スクリーンリーダー完全対応のスマートサジェスト、自動補完の有効/無効切り替え。
+4. エディタ - 使いやすさと安全性：即時エラー検査、フォントサイズと行番号の制御、カスタマイズ可能な自動保存と未保存で閉じる際の警告。
+5. 課題（Issues）セクション：高速検索と絞り込みの改善、チケット状態の包括的管理、ファイル添付サポートと簡単な返信・引用。
+6. プルリクエスト（Pull Requests）：ステータスによる即時フィルタリング、カラフルで明確なコード差分表示、行への直接コメントとスムーズなレビュー。
+7. GitHub Actions：ジョブの追跡・実行、ログや出力の表示を効率化するインターフェース、新しいワークフローを簡単に作成できる既製テンプレート。
+8. チーム管理：コラボレーター、チーム、コード権限を管理する専用タブ、保留中の招待の追跡とキャンセル。
+9. 履歴（History）：ページング対応で過去の変更を柔軟に閲覧、変更の比較、ファイルツリー表示、コミットの簡単なリバート。
+10. お気に入り：スター付き・ピン留めリポジトリの統一ビュー、簡単な並べ替えとピン留め解除。
+11. 設定とカスタマイズ：8つの明確なセクションに設定を包括的に整理、すべてのキーボードショートカットをカスタマイズ可能、安全なバックアップの作成と復元。
+12. クイックコマンドライン：GitHubコマンドを素早く実行するための専用ウィンドウ、結果の簡単な表示とコピー。
+13. 言語サポート：29の異なる言語をカバーする完全で更新された翻訳、統合されたユーザー体験を提供。
+"ko"
+1. 대시보드: 이름, 유형 및 상태별 저장소에 대한 즉시 검색 및 필터링, 부드러운 정렬과 조직 간 직접 탐색.
+2. 파일 및 저장소 관리: 다중 파일 선택 지원, 가속된 복사 및 이동 작업, 진행률 표시기와 재개 기능을 갖춘 대용량 파일 업로드(최대 100MB).
+3. 에디터 - 작성 및 스마트 자동완성: 다양한 프로그래밍 언어에 대한 시각적 구문 강조, 스크린 리더와 완전 호환되는 스마트 제안 시스템 및 자동 완성 활성화/비활성화.
+4. 에디터 - 사용성 및 안전: 즉시 오류 검사, 글꼴 크기 및 줄 번호 제어, 맞춤형 자동 저장 및 저장하지 않고 닫을 때 경고.
+5. 이슈(Issues) 섹션: 개선된 빠른 검색 및 필터링, 포괄적인 티켓 상태 관리, 파일 첨부 지원 및 쉬운 답글과 인용.
+6. 풀 리퀘스트(Pull Requests): 상태별 즉시 필터링, 컬러풀하고 명확한 코드 diff 보기, 라인에 직접 댓글 작성 및 원활한 요청 검토.
+7. GitHub Actions: 작업을 추적하고 실행하며 로그와 출력을 보기 위한 간소화된 인터페이스, 새로운 워크플로를 쉽게 생성할 수 있는 기성 템플릿.
+8. 팀 관리: 협업자, 팀 및 코드 권한을 관리하는 전용 탭, 보류 중인 초대를 추적하고 취소하는 기능.
+9. 히스토리(History): 페이지네이션을 지원하여 모든 이전 변경 사항을 유연하게 탐색, 변경 사항 비교, 파일 트리 보기 및 커밋 쉽게 되돌리기.
+10. 즐겨찾기: 즐겨찾기와 고정된 저장소에 대한 통합 보기, 쉬운 정렬 및 고정 해제.
+11. 설정 및 사용자 정의: 8개의 명확한 섹션으로 설정의 포괄적인 구성, 모든 키보드 단축키 사용자 정의, 안전하게 백업 생성 및 복원.
+12. 빠른 명령줄: GitHub 명령을 빠르게 실행하기 위한 전용 창, 결과의 쉬운 보기 및 복사.
+13. 언어 지원: 완전히 통합된 사용자 경험을 위한 29개 다양한 언어를 다루는 완전하고 업데이트된 번역.
+"hi"
+1. डैशबोर्ड: नाम, प्रकार और स्थिति के अनुसार रिपॉजिटरी की त्वरित खोज और फ़िल्टरिंग, सहज क्रमबद्धता और संगठनों के बीच सीधे नेविगेशन।
+2. फ़ाइल और रिपॉजिटरी प्रबंधन: बहु-फ़ाइल चयन समर्थन, तेज़ कॉपी और मूव संचालन, साथ ही बड़ी फ़ाइल अपलोड (100 MB तक) प्रगति संकेतक और पुनः शुरू करने की सुविधा के साथ।
+3. संपादक - लेखन और स्मार्ट स्वतः-पूर्ति: विभिन्न प्रोग्रामिंग भाषाओं के लिए दृश्य सिंटैक्स हाइलाइटिंग, स्क्रीन रीडर के साथ पूरी तरह संगत स्मार्ट सुझाव प्रणाली और स्वतः-पूर्ति को सक्षम/अक्षम करने की क्षमता।
+4. संपादक - उपयोगिता और सुरक्षा: त्वरित त्रुटि जाँच, फ़ॉन्ट आकार और पंक्ति संख्या नियंत्रण, अनुकूलन योग्य स्वतः-सहेजना और बिना सहेजे बंद करने पर चेतावनी।
+5. समस्याएँ (Issues) अनुभाग: बेहतर त्वरित खोज और फ़िल्टरिंग, व्यापक टिकट स्थिति प्रबंधन, फ़ाइल संलग्नक समर्थन और आसान उत्तर और उद्धरण।
+6. पुल अनुरोध (Pull Requests): स्थिति के अनुसार त्वरित फ़िल्टरिंग, रंगीन और स्पष्ट कोड अंतर दृश्य, सीधे पंक्तियों पर टिप्पणी करने और अनुरोधों की सहज समीक्षा।
+7. GitHub क्रियाएँ (Actions): कार्यों को ट्रैक और चलाने तथा लॉग और आउटपुट देखने के लिए सुव्यवस्थित इंटरफ़ेस, नए वर्कफ़्लो आसानी से बनाने के लिए तैयार टेम्पलेट्स।
+8. टीम प्रबंधन: सहयोगियों, टीमों और कोड अनुमतियों के प्रबंधन के लिए समर्पित टैब, लंबित आमंत्रणों को ट्रैक और रद्द करने की क्षमता।
+9. इतिहास (History): पृष्ठांकन समर्थन के साथ सभी पिछले परिवर्तनों का लचीला ब्राउज़िंग, परिवर्तनों की तुलना, फ़ाइल ट्री देखना और आसानी से कमिट वापस लेना।
+10. पसंदीदा: तारांकित और पिन किए गए रिपॉजिटरी के लिए एकीकृत दृश्य, आसान क्रमबद्धता और अनपिन।
+11. सेटिंग्स और अनुकूलन: 8 स्पष्ट खंडों में सेटिंग्स का व्यापक संगठन, सभी कीबोर्ड शॉर्टकट को अनुकूलित करने और सुरक्षित रूप से बैकअप बनाने और पुनर्स्थापित करने की क्षमता।
+12. त्वरित कमांड लाइन: GitHub कमांड को तेज़ी से निष्पादित करने के लिए समर्पित विंडो, परिणामों को आसानी से देखने और कॉपी करने की सुविधा।
+13. भाषा समर्थन: पूरी तरह से एकीकृत उपयोगकर्ता अनुभव के लिए 29 विभिन्न भाषाओं को कवर करने वाला पूर्ण और अद्यतन अनुवाद।
+"it"
+1. Dashboard: ricerca e filtraggio istantaneo dei repository per nome, tipo e stato, con ordinamento fluido e navigazione diretta tra le organizzazioni.
+2. Gestione file e repository: supporto selezione multipla di file, operazioni di copia e spostamento accelerate, oltre al caricamento di file grandi (fino a 100 MB) con indicatore di avanzamento e possibilità di ripresa.
+3. Editor - Scrittura e completamento intelligente: evidenziazione visiva della sintassi per vari linguaggi di programmazione, con sistema di suggerimenti intelligente pienamente compatibile con screen reader e possibilità di attivare/disattivare il completamento automatico.
+4. Editor - Usabilità e sicurezza: controllo istantaneo degli errori, controllo dimensione carattere e numerazione righe, con salvataggio automatico personalizzabile e avviso alla chiusura senza salvataggio.
+5. Sezione problemi (Issues): ricerca e filtraggio rapidi migliorati, gestione completa dello stato dei ticket, con supporto allegati file e facilità di risposte e citazioni.
+6. Richieste di pull (Pull Requests): filtraggio istantaneo per stato, visualizzazione colorata e chiara del diff del codice con possibilità di commentare direttamente sulle righe e rivedere le richieste con fluidità.
+7. Azioni GitHub (Actions): interfaccia semplificata per tracciare ed eseguire job e visualizzare log e output, con modelli pronti per creare facilmente nuovi workflow.
+8. Gestione team: schede dedicate per gestire collaboratori, team e permessi del codice, con possibilità di tracciare e annullare inviti pendenti.
+9. Cronologia (History): navigazione flessibile di tutte le modifiche precedenti con supporto paginazione, confronto modifiche, visualizzazione albero file e facile ripristino dei commit.
+10. Preferiti: vista unificata per repository preferiti e fissati con facile ordinamento e rimozione dal fissato.
+11. Impostazioni e personalizzazione: organizzazione completa delle impostazioni in 8 sezioni chiare, con possibilità di personalizzare tutte le scorciatoie da tastiera e creare e ripristinare backup in sicurezza.
+12. Riga di comando rapida: finestra dedicata per eseguire rapidamente i comandi GitHub con facile visualizzazione e copia dei risultati.
+13. Supporto lingue: traduzione completa e aggiornata che copre 29 lingue diverse per un'esperienza utente totalmente integrata.
+"fa"
+1. داشبورد: جستجو و فیلتر آنی مخازن بر اساس نام، نوع و وضعیت، با مرتب‌سازی روان و پیمایش مستقیم بین سازمان‌ها.
+2. مدیریت فایل و مخزن: پشتیبانی از انتخاب چندگانه فایل‌ها، تسریع عملیات کپی و انتقال، به علاوه آپلود فایل‌های بزرگ (تا 100 مگابایت) با نشانگر پیشرفت و امکان از سرگیری.
+3. ویرایشگر - نوشتن و تکمیل هوشمند: برجسته‌سازی بصری نحو برای زبان‌های برنامه‌نویسی مختلف، با سیستم پیشنهاد هوشمند کاملاً سازگار با صفحه‌خوان‌ها و امکان فعال/غیرفعال کردن تکمیل خودکار.
+4. ویرایشگر - قابلیت استفاده و ایمنی: بررسی فوری خطاها، کنترل اندازه قلم و شماره‌گذاری خطوط، با ذخیره خودکار قابل تنظیم و هشدار هنگام بستن بدون ذخیره.
+5. بخش مشکلات (Issues): جستجو و فیلتر سریع بهبود یافته، مدیریت جامع وضعیت تیکت‌ها، با پشتیبانی از پیوست فایل و سهولت پاسخ و نقل قول.
+6. درخواست‌های ادغام (Pull Requests): فیلتر آنی بر اساس وضعیت، نمایش رنگی و واضح تفاوت کدها با امکان نظر دادن مستقیم روی خطوط و بررسی روان درخواست‌ها.
+7. اقدامات گیت‌هاب (Actions): رابط ساده برای پیگیری و اجرای وظایف و نمایش گزارش‌ها و خروجی‌ها، با قالب‌های آماده برای ایجاد آسان گردش‌های کاری جدید.
+8. مدیریت تیم: تب‌های اختصاصی برای مدیریت همکاران، تیم‌ها و مجوزهای کد، با امکان پیگیری و لغو دعوت‌های در انتظار.
+9. تاریخچه (History): مرور انعطاف‌پذیر تمام تغییرات قبلی با پشتیبانی از صفحه‌بندی، مقایسه تغییرات، نمایش درخت فایل و بازگردانی آسان کامیت‌ها.
+10. علاقه‌مندی‌ها: نمایش یکپارچه مخازن مورد علاقه و سنجاق شده با مرتب‌سازی و برداشتن سنجاق آسان.
+11. تنظیمات و شخصی‌سازی: سازماندهی جامع تنظیمات در 8 بخش واضح، با امکان سفارشی‌سازی تمام میانبرهای صفحه‌کلید و ایجاد و بازیابی پشتیبان به صورت امن.
+12. خط فرمان سریع: پنجره اختصاصی برای اجرای سریع دستورات گیت‌هاب با نمایش و کپی آسان نتایج.
+13. پشتیبانی زبان: ترجمه کامل و به‌روز شامل 29 زبان مختلف برای تجربه کاربری کاملاً یکپارچه.
+"ur"
+1. ڈیش بورڈ: نام، قسم اور حیثیت کے لحاظ سے ریپوزٹریز کی فوری تلاش اور فلٹرنگ، ہموار ترتیب اور تنظیموں کے درمیان براہ راست نیویگیشن۔
+2. فائل اور ریپوزٹری مینجمنٹ: متعدد فائل سلیکشن سپورٹ، تیز رفتار کاپی اور منتقل کرنے کے عمل، نیز بڑی فائل اپ لوڈ (100 میگابائٹ تک) پیش رفت انڈیکیٹر اور دوبارہ شروع کرنے کی سہولت کے ساتھ۔
+3. ایڈیٹر - تحریر اور اسمارٹ تکمیل: مختلف پروگرامنگ زبانوں کے لیے بصری نحو ہائی لائٹنگ، اسکرین ریڈرز کے ساتھ مکمل ہم آہنگ اسمارٹ تجویز سسٹم اور خودکار تکمیل کو فعال/غیر فعال کرنے کی صلاحیت۔
+4. ایڈیٹر - استعمال اور حفاظت: فوری خرابی کی جانچ، فونٹ سائز اور لائن نمبر کنٹرول، حسب ضرورت خودکار محفوظ کرنے اور بغیر محفوظ کیے بند کرنے پر انتباہ۔
+5. مسائل (Issues) سیکشن: بہتر فوری تلاش اور فلٹرنگ، ٹکٹ کی حیثیت کا جامع انتظام، فائل منسلکہ سپورٹ اور آسان جوابات اور اقتباسات۔
+6. پل ریکویسٹس (Pull Requests): حیثیت کے لحاظ سے فوری فلٹرنگ، رنگین اور واضح کوڈ فرق ویو، لائنوں پر براہ راست تبصرہ اور درخواستوں کا ہموار جائزہ۔
+7. گٹ ہب ایکشنز (Actions): کاموں کو ٹریک اور چلانے اور لاگز اور آؤٹ پٹس دیکھنے کے لیے ہموار انٹرفیس، نئے ورک فلوز آسانی سے بنانے کے لیے تیار ٹیمپلیٹس۔
+8. ٹیم مینجمنٹ: ساتھیوں، ٹیموں اور کوڈ اجازتوں کے انتظام کے لیے مخصوص ٹیبز، زیر التواء دعوتوں کو ٹریک اور منسوخ کرنے کی صلاحیت۔
+9. تاریخ (History): صفحہ بندی سپورٹ کے ساتھ تمام پچھلی تبدیلیوں کی لچکدار براؤزنگ، تبدیلیوں کا موازنہ، فائل ٹری دیکھنا اور آسانی سے کمیٹس واپس لینا۔
+10. پسندیدہ: اسٹار اور پن کی گئی ریپوزٹریز کا متحدہ ویو، آسان ترتیب اور ان پن۔
+11. ترتیبات اور تخصیص: 8 واضح حصوں میں ترتیبات کی جامع تنظیم، تمام کی بورڈ شارٹ کٹس کو اپنی مرضی کے مطابق بنانے اور محفوظ طریقے سے بیک اپ بنانے اور بحال کرنے کی صلاحیت۔
+12. فوری کمانڈ لائن: گٹ ہب کمانڈز کو تیزی سے چلانے کے لیے مخصوص ونڈو، نتائج کو آسانی سے دیکھنا اور کاپی کرنا۔
+13. زبان کی معاونت: مکمل اور تازہ ترجمہ جو 29 مختلف زبانوں کا احاطہ کرتا ہے تاکہ مکمل مربوط صارف تجربہ فراہم ہو۔
+"nl"
+1. Dashboard: Direct zoeken en filteren van repositories op naam, type en status, met vloeiend sorteren en directe navigatie tussen organisaties.
+2. Bestands- & Repositorybeheer: Ondersteuning voor meervoudige bestandsselectie, versnelde kopieer- en verplaatsbewerkingen, plus upload van grote bestanden (tot 100 MB) met voortgangsindicator en hervatting.
+3. Editor – Schrijven & Slimme Aanvulling: Visuele syntaxismarkering voor verschillende programmeertalen, met slim suggestiesysteem volledig compatibel met schermlezers en mogelijkheid om automatisch aanvullen in/uit te schakelen.
+4. Editor – Bruikbaarheid & Veiligheid: Directe foutcontrole, bediening van lettergrootte en regelnummers, met aanpasbare automatische opslag en waarschuwing bij sluiten zonder opslaan.
+5. Issues-sectie: Verbeterd snel zoeken en filteren, uitgebreid ticketstatusbeheer, met ondersteuning voor bestandsbijlagen en eenvoudig antwoorden en citeren.
+6. Pull Requests: Direct filteren op status, kleurrijke en duidelijke code-diff-weergave met mogelijkheid om direct op regels te reageren en verzoeken soepel te beoordelen.
+7. GitHub Actions: Gestroomlijnde interface om taken te volgen en uit te voeren en logs en outputs te bekijken, met kant-en-klare sjablonen om eenvoudig nieuwe workflows te maken.
+8. Teambeheer: Toegewijde tabbladen voor het beheren van medewerkers, teams en coderechten, met mogelijkheid om openstaande uitnodigingen te volgen en te annuleren.
+9. Geschiedenis (History): Flexibel bladeren door alle eerdere wijzigingen met paginatie-ondersteuning, wijzigingen vergelijken, bestandsboom bekijken en eenvoudig commits terugdraaien.
+10. Favorieten: Uniforme weergave voor favoriete en vastgepinde repositories met eenvoudig sorteren en losmaken.
+11. Instellingen & Aanpassing: Uitgebreide organisatie van instellingen in 8 duidelijke secties, met mogelijkheid om alle sneltoetsen aan te passen en veilig back-ups te maken en te herstellen.
+12. Snelle Opdrachtregel: Toegewijd venster om GitHub-opdrachten snel uit te voeren met eenvoudig bekijken en kopiëren van resultaten.
+13. Taalondersteuning: Volledige en bijgewerkte vertaling die 29 verschillende talen dekt voor een volledig geïntegreerde gebruikerservaring.
+"pl"
+1. Panel sterowania: natychmiastowe wyszukiwanie i filtrowanie repozytoriów według nazwy, typu i statusu, z płynnym sortowaniem i bezpośrednią nawigacją między organizacjami.
+2. Zarządzanie plikami i repozytorium: obsługa wielokrotnego wyboru plików, przyspieszone operacje kopiowania i przenoszenia, plus przesyłanie dużych plików (do 100 MB) ze wskaźnikiem postępu i możliwością wznowienia.
+3. Edytor – Pisanie i inteligentne uzupełnianie: wizualne podświetlanie składni dla różnych języków programowania, z inteligentnym systemem sugestii w pełni kompatybilnym z czytnikami ekranu i możliwością włączenia/wyłączenia autouzupełniania.
+4. Edytor – Użyteczność i bezpieczeństwo: natychmiastowe sprawdzanie błędów, kontrola rozmiaru czcionki i numeracji linii, z konfigurowalnym automatycznym zapisem i ostrzeżeniem przy zamykaniu bez zapisu.
+5. Sekcja problemów (Issues): ulepszone szybkie wyszukiwanie i filtrowanie, kompleksowe zarządzanie statusem zgłoszeń, ze wsparciem załączników plików i łatwymi odpowiedziami i cytatami.
+6. Żądania scalenia (Pull Requests): natychmiastowe filtrowanie według statusu, kolorowy i przejrzysty widok różnic kodu z możliwością bezpośredniego komentowania linii i płynnego przeglądania żądań.
+7. Akcje GitHub (Actions): usprawniony interfejs do śledzenia i uruchamiania zadań oraz przeglądania logów i wyników, z gotowymi szablonami do łatwego tworzenia nowych przepływów pracy.
+8. Zarządzanie zespołem: dedykowane zakładki do zarządzania współpracownikami, zespołami i uprawnieniami kodu, z możliwością śledzenia i anulowania oczekujących zaproszeń.
+9. Historia (History): elastyczne przeglądanie wszystkich poprzednich zmian z obsługą paginacji, porównywanie zmian, przeglądanie drzewa plików i łatwe cofanie commitów.
+10. Ulubione: ujednolicony widok dla repozytoriów ulubionych i przypiętych z łatwym sortowaniem i odpinaniem.
+11. Ustawienia i personalizacja: kompleksowa organizacja ustawień w 8 przejrzystych sekcjach, z możliwością dostosowania wszystkich skrótów klawiaturowych oraz bezpiecznego tworzenia i przywracania kopii zapasowych.
+12. Szybka linia poleceń: dedykowane okno do szybkiego wykonywania poleceń GitHub z łatwym wyświetlaniem i kopiowaniem wyników.
+13. Wsparcie językowe: kompletne i zaktualizowane tłumaczenie obejmujące 29 różnych języków dla w pełni zintegrowanego doświadczenia użytkownika.
+"sv"
+1. Instrumentpanel: omedelbar sökning och filtrering av repositories efter namn, typ och status, med smidig sortering och direkt navigering mellan organisationer.
+2. Fil- & Repositoryhantering: Stöd för flerval av filer, accelererade kopierings- och flyttoperationer, plus uppladdning av stora filer (upp till 100 MB) med progressindikator och återupptagning.
+3. Redigerare – Skrivning & Smart Komplettering: Visuell syntaxmarkering för olika programmeringsspråk, med smart förslagsystem fullt kompatibelt med skärmläsare och möjlighet att aktivera/inaktivera autokomplettering.
+4. Redigerare – Användbarhet & Säkerhet: Omedelbar felkontroll, kontroll av teckenstorlek och radnummer, med anpassningsbar autosparning och varning vid stängning utan att spara.
+5. Ärenden (Issues): Förbättrad snabbsökning och filtrering, omfattande hantering av ärendestatus, med stöd för filbilagor och enkla svar och citat.
+6. Pull Requests: Omedelbar filtrering efter status, färgglad och tydlig kod-diff-vy med möjlighet att kommentera direkt på rader och granska förfrågningar smidigt.
+7. GitHub Actions: Strömlinjeformat gränssnitt för att spåra och köra jobb och visa loggar och utdata, med färdiga mallar för att enkelt skapa nya arbetsflöden.
+8. Teamhantering: Dedikerade flikar för att hantera medarbetare, team och kodbehörigheter, med möjlighet att spåra och avbryta väntande inbjudningar.
+9. Historik (History): Flexibel bläddring av alla tidigare ändringar med stöd för paginering, jämföra ändringar, visa filträd och enkelt återställa commits.
+10. Favoriter: Enhetlig vy för stjärnmärkta och fästa repositories med enkel sortering och lossning.
+11. Inställningar & Anpassning: Omfattande organisering av inställningar i 8 tydliga avsnitt, med möjlighet att anpassa alla kortkommandon och säkert skapa och återställa säkerhetskopior.
+12. Snabb Kommandorad: Dedikerat fönster för att snabbt köra GitHub-kommandon med enkel visning och kopiering av resultat.
+13. Språkstöd: Komplett och uppdaterad översättning som täcker 29 olika språk för en fullt integrerad användarupplevelse.
+"id"
+1. Dasbor: pencarian dan penyaringan instan untuk repositori berdasarkan nama, jenis dan status, dengan pengurutan mulus dan navigasi langsung antar organisasi.
+2. Manajemen File & Repositori: Dukungan pemilihan banyak file, operasi salin dan pindah yang dipercepat, plus unggah file besar (hingga 100 MB) dengan indikator kemajuan dan dapat dilanjutkan.
+3. Editor - Menulis & Pelengkapan Cerdas: Penyorotan sintaks visual untuk berbagai bahasa pemrograman, dengan sistem saran cerdas yang sepenuhnya kompatibel dengan pembaca layar dan kemampuan mengaktifkan/menonaktifkan pelengkapan otomatis.
+4. Editor - Kegunaan & Keamanan: Pemeriksaan kesalahan instan, kontrol ukuran font dan nomor baris, dengan penyimpanan otomatis yang dapat disesuaikan dan peringatan saat menutup tanpa menyimpan.
+5. Bagian Masalah (Issues): pencarian dan penyaringan cepat yang ditingkatkan, manajemen status tiket yang komprehensif, dengan dukungan lampiran file dan kemudahan membalas dan mengutip.
+6. Permintaan Tarik (Pull Requests): penyaringan instan berdasarkan status, tampilan diff kode yang berwarna dan jelas dengan kemampuan berkomentar langsung pada baris dan meninjau permintaan dengan lancar.
+7. Aksi GitHub (Actions): antarmuka yang disederhanakan untuk melacak dan menjalankan pekerjaan dan melihat log dan output, dengan templat siap pakai untuk membuat alur kerja baru dengan mudah.
+8. Manajemen Tim: Tab khusus untuk mengelola kolaborator, tim dan izin kode, dengan kemampuan melacak dan membatalkan undangan tertunda.
+9. Riwayat (History): penjelajahan fleksibel semua perubahan sebelumnya dengan dukungan halaman, membandingkan perubahan, melihat pohon file dan dengan mudah mengembalikan commit.
+10. Favorit: tampilan terpadu untuk repositori berbintang dan yang disematkan dengan pengurutan dan melepas sematan yang mudah.
+11. Pengaturan & Kustomisasi: organisasi komprehensif pengaturan ke dalam 8 bagian yang jelas, dengan kemampuan menyesuaikan semua pintasan keyboard, dan membuat serta memulihkan cadangan dengan aman.
+12. Baris Perintah Cepat: jendela khusus untuk menjalankan perintah GitHub dengan cepat dengan tampilan dan penyalinan hasil yang mudah.
+13. Dukungan Bahasa: terjemahan lengkap dan terbaru yang mencakup 29 bahasa berbeda untuk pengalaman pengguna yang sepenuhnya terintegrasi.
+"ms"
+1. Papan pemuka: carian dan penapisan segera untuk repositori mengikut nama, jenis dan status, dengan penyusunan lancar dan navigasi langsung antara organisasi.
+2. Pengurusan Fail & Repositori: Sokongan pemilihan berbilang fail, operasi salin dan pindah yang dipercepat, serta muat naik fail besar (sehingga 100 MB) dengan penunjuk kemajuan dan boleh disambung semula.
+3. Editor - Penulisan & Pelengkapan Pintar: Penyerlahan sintaks visual untuk pelbagai bahasa pengaturcaraan, dengan sistem cadangan pintar yang serasi sepenuhnya dengan pembaca skrin dan keupayaan mengaktifkan/menyahaktifkan pelengkapan automatik.
+4. Editor - Kebolehgunaan & Keselamatan: Pemeriksaan ralat segera, kawalan saiz fon dan nombor baris, dengan simpan automatik yang boleh disesuaikan dan amaran semasa menutup tanpa menyimpan.
+5. Bahagian Isu (Issues): carian dan penapisan pantas yang dipertingkat, pengurusan status tiket yang komprehensif, dengan sokongan lampiran fail dan kemudahan membalas dan memetik.
+6. Permintaan Tarik (Pull Requests): penapisan segera mengikut status, paparan diff kod berwarna dan jelas dengan keupayaan mengulas terus pada baris dan menyemak permintaan dengan lancar.
+7. Tindakan GitHub (Actions): antara muka diperkemas untuk menjejak dan menjalankan tugas dan melihat log dan output, dengan templat siap sedia untuk mencipta aliran kerja baharu dengan mudah.
+8. Pengurusan Pasukan: Tab khusus untuk mengurus kolaborator, pasukan dan kebenaran kod, dengan keupayaan menjejak dan membatalkan jemputan yang belum selesai.
+9. Sejarah (History): pelayaran fleksibel semua perubahan sebelumnya dengan sokongan penomboran halaman, membandingkan perubahan, melihat pepohon fail dan dengan mudah mengembalikan komit.
+10. Kegemaran: paparan bersatu untuk repositori berbintang dan disematkan dengan penyusunan dan nyah semat yang mudah.
+11. Tetapan & Penyesuaian: organisasi komprehensif tetapan kepada 8 bahagian yang jelas, dengan keupayaan menyesuaikan semua pintasan papan kekunci, dan mencipta serta memulihkan sandaran dengan selamat.
+12. Baris Perintah Pantas: tetingkap khusus untuk melaksanakan perintah GitHub dengan cepat dengan paparan dan penyalinan hasil yang mudah.
+13. Sokongan Bahasa: terjemahan lengkap dan dikemas kini yang merangkumi 29 bahasa berbeza untuk pengalaman pengguna yang bersepadu sepenuhnya.
+"uk"
+1. Панель керування: миттєвий пошук і фільтрація репозиторіїв за іменем, типом і статусом, з плавним сортуванням і прямою навігацією між організаціями.
+2. Керування файлами та репозиторієм: підтримка множинного вибору файлів, прискорені операції копіювання та переміщення, а також завантаження великих файлів (до 100 МБ) з індикатором прогресу та можливістю відновлення.
+3. Редактор — написання та розумне автодоповнення: візуальне підсвічування синтаксису для різних мов програмування, з розумною системою підказок повністю сумісною з екранними читачами та можливістю ввімкнути/вимкнути автодоповнення.
+4. Редактор — зручність та безпека: миттєва перевірка помилок, керування розміром шрифту та нумерацією рядків, з настроюваним автозбереженням і попередженням при закритті без збереження.
+5. Розділ завдань (Issues): покращений швидкий пошук і фільтрація, комплексне керування статусами тікетів, з підтримкою вкладень файлів і зручними відповідями та цитатами.
+6. Запити на злиття (Pull Requests): миттєва фільтрація за статусом, кольоровий і чіткий перегляд diff коду з можливістю коментувати прямо на рядках і плавно розглядати запити.
+7. Дії GitHub (Actions): зручний інтерфейс для відстеження та запуску завдань і перегляду логів та виводів, з готовими шаблонами для легкого створення нових робочих процесів.
+8. Керування командою: окремі вкладки для керування співавторами, командами та правами на код, з можливістю відстежувати та скасовувати очікуючі запрошення.
+9. Історія (History): гнучкий перегляд усіх попередніх змін з підтримкою пагінації, порівняння змін, перегляд дерева файлів і легке відкочування комітів.
+10. Вибране: єдиний вигляд для вибраних і закріплених репозиторіїв з легким сортуванням і відкріпленням.
+11. Налаштування та персоналізація: комплексна організація налаштувань у 8 чітких розділів, з можливістю налаштування всіх гарячих клавіш і безпечного створення та відновлення резервних копій.
+12. Швидкий командний рядок: окреме вікно для швидкого виконання команд GitHub з зручним переглядом і копіюванням результатів.
+13. Мовна підтримка: повний і оновлений переклад, що охоплює 29 різних мов для повністю інтегрованого досвіду.
+"bn"
+1. ড্যাশবোর্ড: নাম, ধরন এবং অবস্থা অনুযায়ী রিপোজিটরির তাৎক্ষণিক অনুসন্ধান ও ফিল্টারিং, মসৃণ সাজানো এবং সংস্থাগুলির মধ্যে সরাসরি নেভিগেশন সহ।
+2. ফাইল ও রিপোজিটরি ব্যবস্থাপনা: একাধিক ফাইল নির্বাচন সমর্থন, ত্বরান্বিত কপি ও সরানোর কার্যক্রম, পাশাপাশি বড় ফাইল আপলোড (100 MB পর্যন্ত) অগ্রগতি নির্দেশক এবং পুনরায় শুরু করার সুবিধা সহ।
+3. সম্পাদক - লেখা ও স্মার্ট সম্পূর্ণতা: বিভিন্ন প্রোগ্রামিং ভাষার জন্য ভিজ্যুয়াল সিনট্যাক্স হাইলাইটিং, স্ক্রিন রিডারের সাথে সম্পূর্ণ সামঞ্জস্যপূর্ণ স্মার্ট পরামর্শ ব্যবস্থা এবং স্বয়ংক্রিয় সম্পূর্ণতা সক্ষম/অক্ষম করার ক্ষমতা।
+4. সম্পাদক - ব্যবহারযোগ্যতা ও নিরাপত্তা: তাৎক্ষণিক ত্রুটি পরীক্ষা, ফন্টের আকার ও লাইন নম্বর নিয়ন্ত্রণ, কাস্টমাইজযোগ্য স্বয়ংক্রিয় সংরক্ষণ এবং সংরক্ষণ না করে বন্ধ করার সময় সতর্কতা।
+5. সমস্যা (Issues) বিভাগ: উন্নত দ্রুত অনুসন্ধান ও ফিল্টারিং, ব্যাপক টিকিট অবস্থা ব্যবস্থাপনা, ফাইল সংযুক্তি সমর্থন এবং সহজ উত্তর ও উদ্ধৃতি।
+6. পুল রিকোয়েস্ট (Pull Requests): অবস্থা অনুযায়ী তাৎক্ষণিক ফিল্টারিং, রঙিন ও স্পষ্ট কোড পার্থক্য ভিউ, সরাসরি লাইনে মন্তব্য এবং মসৃণভাবে অনুরোধ পর্যালোচনা।
+7. GitHub অ্যাকশন (Actions): কাজ ট্র্যাক ও চালানো এবং লগ ও আউটপুট দেখার জন্য সুव्यवस्थित ইন্টারফেস, সহজে নতুন ওয়ার্কফ্লো তৈরির জন্য প্রস্তুত টেমপ্লেট সহ।
+8. টিম ব্যবস্থাপনা: সহযোগী, দল এবং কোড অনুমতি পরিচালনার জন্য নিবেদিত ট্যাব, মুলতুবি আমন্ত্রণ ট্র্যাক ও বাতিল করার ক্ষমতা সহ।
+9. ইতিহাস (History): পৃষ্ঠা সমর্থন সহ সমস্ত পূর্ববর্তী পরিবর্তনের নমনীয় ব্রাউজিং, পরিবর্তন তুলনা, ফাইল ট্রি দেখা এবং সহজে কমিট প্রত্যাবর্তন।
+10. পছন্দের তালিকা: তারকাযুক্ত ও পিন করা রিপোজিটরির জন্য একীভূত ভিউ, সহজ সাজানো এবং আনপিন।
+11. সেটিংস ও কাস্টমাইজেশন: 8টি স্পষ্ট বিভাগে সেটিংসের ব্যাপক সংগঠন, সমস্ত কীবোর্ড শর্টকাট কাস্টমাইজ করার ক্ষমতা এবং নিরাপদে ব্যাকআপ তৈরি ও পুনরুদ্ধার।
+12. দ্রুত কমান্ড লাইন: GitHub কমান্ড দ্রুত চালানোর জন্য নিবেদিত উইন্ডো, ফলাফল সহজে দেখা ও কপি করা।
+13. ভাষা সমর্থন: সম্পূর্ণ সমন্বিত ব্যবহারকারীর অভিজ্ঞতার জন্য 29টি ভিন্ন ভাষা জুড়ে সম্পূর্ণ ও হালনাগাদ অনুবাদ।
+"th"
+1. แดชบอร์ด: ค้นหาและกรองที่เก็บข้อมูลทันทีตามชื่อ ประเภท และสถานะ พร้อมการเรียงลำดับที่ราบรื่นและการนำทางโดยตรงระหว่างองค์กร
+2. การจัดการไฟล์และที่เก็บ: รองรับการเลือกหลายไฟล์ เร่งการคัดลอกและย้ายไฟล์ พร้อมอัปโหลดไฟล์ขนาดใหญ่ (สูงสุด 100 MB) พร้อมตัวบ่งชี้ความคืบหน้าและความสามารถในการอัปโหลดต่อ
+3. ตัวแก้ไข - การเขียนและการเติมอัจฉริยะ: การเน้นไวยากรณ์ด้วยภาพสำหรับภาษาโปรแกรมต่างๆ พร้อมระบบแนะนำอัจฉริยะที่เข้ากันได้เต็มที่กับโปรแกรมอ่านหน้าจอและความสามารถในการเปิด/ปิดการเติมอัตโนมัติ
+4. ตัวแก้ไข - การใช้งานและความปลอดภัย: ตรวจสอบข้อผิดพลาดทันที ควบคุมขนาดฟอนต์และการนับบรรทัด พร้อมบันทึกอัตโนมัติที่ปรับแต่งได้และการแจ้งเตือนเมื่อปิดโดยไม่บันทึก
+5. ส่วนปัญหา (Issues): ปรับปรุงการค้นหาและกรองอย่างรวดเร็ว การจัดการสถานะตั๋วที่ครอบคลุม พร้อมการสนับสนุนแนบไฟล์และความสะดวกในการตอบกลับและการอ้างอิง
+6. คำขอดึง (Pull Requests): กรองทันทีตามสถานะ มุมมองความแตกต่างของโค้ดที่มีสีสันและชัดเจนพร้อมความสามารถในการแสดงความคิดเห็นโดยตรงบนบรรทัดและตรวจสอบคำขอได้อย่างราบรื่น
+7. GitHub Actions: อินเทอร์เฟซที่คล่องตัวเพื่อติดตามและเรียกใช้งานและดูบันทึกและผลลัพธ์ พร้อมเทมเพลตสำเร็จรูปเพื่อสร้างเวิร์กโฟลว์ใหม่อย่างง่ายดาย
+8. การจัดการทีม: แท็บเฉพาะสำหรับการจัดการผู้ร่วมงาน ทีม และสิทธิ์ของโค้ด พร้อมความสามารถในการติดตามและยกเลิกคำเชิญที่รอดำเนินการ
+9. ประวัติ (History): การเรียกดูการเปลี่ยนแปลงก่อนหน้าทั้งหมดอย่างยืดหยุ่นพร้อมการรองรับการแบ่งหน้า การเปรียบเทียบการเปลี่ยนแปลง การดูต้นไม้ไฟล์และการย้อนกลับคอมมิตได้อย่างง่ายดาย
+10. รายการโปรด: มุมมองรวมสำหรับที่เก็บที่ติดดาวและปักหมุดพร้อมการเรียงลำดับและการเลิกปักหมุดที่ง่าย
+11. การตั้งค่าและการปรับแต่ง: การจัดระเบียบการตั้งค่าอย่างครอบคลุมเป็น 8 หมวดหมู่ที่ชัดเจน พร้อมความสามารถในการปรับแต่งปุ่มลัดทั้งหมด และการสร้างและกู้คืนข้อมูลสำรองอย่างปลอดภัย
+12. บรรทัดคำสั่งด่วน: หน้าต่างเฉพาะสำหรับดำเนินการคำสั่ง GitHub อย่างรวดเร็วพร้อมการดูและคัดลอกผลลัพธ์ที่ง่าย
+13. การสนับสนุนภาษา: การแปลที่สมบูรณ์และอัปเดตครอบคลุม 29 ภาษาที่แตกต่างกันเพื่อประสบการณ์ผู้ใช้ที่บูรณาการอย่างเต็มที่
+"el"
+1. Πίνακας ελέγχου: άμεση αναζήτηση και φιλτράρισμα αποθετηρίων по όνομα, τύπο και κατάσταση, με ομαλή ταξινόμηση και άμεση πλοήγηση μεταξύ οργανισμών.
+2. Διαχείριση αρχείων και αποθετηρίου: υποστήριξη πολλαπλής επιλογής αρχείων, επιταχυνόμενες λειτουργίες αντιγραφής και μετακίνησης, συν μεταφόρτωση μεγάλων αρχείων (έως 100 MB) με ένδειξη προόδου και δυνατότητα συνέχισης.
+3. Επεξεργαστής - Γραφή & Έξυπνη ολοκλήρωση: οπτική επισήμανση σύνταξης για διάφορες γλώσσες προγραμματισμού, με έξυπνο σύστημα προτάσεων πλήρως συμβατό με αναγνώστες οθόνης και δυνατότητα ενεργοποίησης/απενεργοποίησης αυτόματης ολοκλήρωσης.
+4. Επεξεργαστής - Ευχρηστία & Ασφάλεια: άμεσος έλεγχος σφαλμάτων, έλεγχος μεγέθους γραμματοσειράς και αρίθμησης γραμμών, με προσαρμόσιμη αυτόματη αποθήκευση και προειδοποίηση κατά το κλείσιμο χωρίς αποθήκευση.
+5. Ενότητα ζητημάτων (Issues): βελτιωμένη γρήγορη αναζήτηση και φιλτράρισμα, ολοκληρωμένη διαχείριση κατάστασης tickets, με υποστήριξη επισύναψης αρχείων και εύκολες απαντήσεις και παραθέσεις.
+6. Αιτήματα έλξης (Pull Requests): άμεσο φιλτράρισμα κατά κατάσταση, πολύχρωμη και καθαρή προβολή diff κώδικα με δυνατότητα σχολιασμού απευθείας στις γραμμές και ομαλή ανασκόπηση αιτημάτων.
+7. Ενέργειες GitHub (Actions): απλοποιημένη διεπαφή για παρακολούθηση και εκτέλεση εργασιών και προβολή αρχείων καταγραφής και εξόδων, με έτοιμα πρότυπα για εύκολη δημιουργία νέων ροών εργασίας.
+8. Διαχείριση ομάδας: ειδικές καρτέλες για διαχείριση συνεργατών, ομάδων και δικαιωμάτων κώδικα, με δυνατότητα παρακολούθησης και ακύρωσης εκκρεμών προσκλήσεων.
+9. Ιστορικό (History): ευέλικτη περιήγηση όλων των προηγούμενων αλλαγών με υποστήριξη σελιδοποίησης, σύγκριση αλλαγών, προβολή δέντρου αρχείων και εύκολη αναίρεση commits.
+10. Αγαπημένα: ενοποιημένη προβολή για αποθετήρια με αστέρι και καρφιτσωμένα με εύκολη ταξινόμηση και ξεκарφίτσωμα.
+11. Ρυθμίσεις & Προσαρμογή: ολοκληρωμένη οργάνωση ρυθμίσεων σε 8 σαφείς ενότητες, με δυνατότητα προσαρμογής όλων των συντομεύσεων πληκτρολογίου και ασφαλούς δημιουργίας και επαναφοράς αντιγράφων ασφαλείας.
+12. Γρήγορη γραμμή εντολών: ειδικό παράθυρο για γρήγορη εκτέλεση εντολών GitHub με εύκολη προβολή και αντιγραφή αποτελεσμάτων.
+13. Υποστήριξη γλωσσών: πλήρης και ενημερωμένη μετάφραση που καλύπτει 29 διαφορετικές γλώσσες για πλήρως ενσωματωμένη εμπειρία χρήστη.
+"cs"
+1. Ovládací panel: okamžité vyhledávání a filtrování repozitářů podle názvu, typu a stavu, s plynulým řazením a přímou navigací mezi organizacemi.
+2. Správa souborů a repozitáře: podpora vícenásobného výběru souborů, zrychlené operace kopírování a přesunu, plus nahrávání velkých souborů (až 100 MB) s ukazatelem průběhu a možností pokračování.
+3. Editor – Psaní a inteligentní dokončování: vizuální zvýraznění syntaxe pro různé programovací jazyky, s inteligentním systémem návrhů plně kompatibilním se čtečkami obrazovky a možností povolit/zakázat automatické dokončování.
+4. Editor – Použitelnost a bezpečnost: okamžitá kontrola chyb, ovládání velikosti písma a číslování řádků, s přizpůsobitelným automatickým ukládáním a varováním při zavření bez uložení.
+5. Sekce problémů (Issues): vylepšené rychlé vyhledávání a filtrování, komplexní správa stavu tiketů, s podporou příloh souborů a snadnými odpověďmi a citacemi.
+6. Žádosti o stažení (Pull Requests): okamžité filtrování podle stavu, barevný a přehledný pohled na rozdíly kódu s možností komentovat přímo na řádcích a plynule revidovat požadavky.
+7. Akce GitHub (Actions): zjednodušené rozhraní pro sledování a spouštění úloh a prohlížení protokolů a výstupů, s hotovými šablonami pro snadné vytváření nových workflow.
+8. Správa týmu: vyhrazené karty pro správu spolupracovníků, týmů a oprávnění kódu, s možností sledovat a rušit čekající pozvánky.
+9. Historie (History): flexibilní procházení všech předchozích změn s podporou stránkování, porovnávání změn, zobrazení stromu souborů a snadné vrácení commitů.
+10. Oblíbené: sjednocený pohled pro oblíbené a připnuté repozitáře se snadným řazením a odepnutím.
+11. Nastavení a přizpůsobení: komplexní organizace nastavení do 8 jasných sekcí, s možností přizpůsobit všechny klávesové zkratky a bezpečně vytvářet a obnovovat zálohy.
+12. Rychlý příkazový řádek: vyhrazené okno pro rychlé spouštění příkazů GitHub se snadným zobrazením a kopírováním výsledků.
+13. Jazyková podpora: kompletní a aktualizovaný překlad pokrývající 29 různých jazyků pro plně integrovaný uživatelský zážitek.
+"ro"
+1. Panou de control: căutare și filtrare instantanee pentru depozite după nume, tip și stare, cu sortare fluidă și navigare directă între organizații.
+2. Gestionarea fișierelor și a depozitului: suport pentru selectarea multiplă a fișierelor, operațiuni accelerate de copiere și mutare, plus încărcarea fișierelor mari (până la 100 MB) cu indicator de progres și reluare.
+3. Editor - Scriere și completare inteligentă: evidențiere vizuală a sintaxei pentru diverse limbaje de programare, cu sistem inteligent de sugestii pe deplin compatibil cu cititoarele de ecran și posibilitatea de a activa/dezactiva completarea automată.
+4. Editor - Utilizabilitate și siguranță: verificare instantanee a erorilor, controlul dimensiunii fontului și numerotarea liniilor, cu salvare automată personalizabilă și avertizare la închiderea fără salvare.
+5. Secțiunea probleme (Issues): căutare și filtrare rapidă îmbunătățite, gestionare completă a stării tichetelor, cu suport pentru atașarea fișierelor și ușurință în răspunsuri și citări.
+6. Cereri de extragere (Pull Requests): filtrare instantanee după stare, vizualizare colorată și clară a diferențelor de cod cu posibilitatea de a comenta direct pe linii și de a revizui cererile fluent.
+7. Acțiuni GitHub (Actions): interfață simplificată pentru urmărirea și rularea sarcinilor și vizualizarea jurnalelor și ieșirilor, cu șabloane gata făcute pentru a crea ușor fluxuri de lucru noi.
+8. Gestionarea echipei: file dedicate pentru gestionarea colaboratorilor, echipelor și permisiunilor de cod, cu posibilitatea de a urmări și anula invitațiile în așteptare.
+9. Istoric (History): navigare flexibilă prin toate modificările anterioare cu suport pentru paginare, compararea modificărilor, vizualizarea arborelui de fișiere și revenirea ușoară asupra commit-urilor.
+10. Favorite: vizualizare unificată pentru depozitele favorite și fixate cu sortare ușoară și anularea fixării.
+11. Setări și personalizare: organizare cuprinzătoare a setărilor în 8 secțiuni clare, cu posibilitatea de a personaliza toate scurtăturile de tastatură și de a crea și restaura în siguranță copii de rezervă.
+12. Linie de comandă rapidă: fereastră dedicată pentru executarea rapidă a comenzilor GitHub cu vizualizare și copiere ușoară a rezultatelor.
+13. Suport lingvistic: traducere completă și actualizată care acoperă 29 de limbi diferite pentru o experiență de utilizare complet integrată.
+"hu"
+1. Vezérlőpult: azonnali keresés és szűrés a tárolók között név, típus és állapot szerint, gördülékeny rendezéssel és közvetlen navigációval a szervezetek között.
+2. Fájl- és tárolókezelés: többfájlos kijelölés támogatása, gyorsított másolási és áthelyezési műveletek, plusz nagy fájlok feltöltése (akár 100 MB) folyamatjelzővel és folytatási lehetőséggel.
+3. Szerkesztő – Írás és intelligens kiegészítés: vizuális szintaxiskiemelés különböző programozási nyelvekhez, képernyőolvasókkal teljesen kompatibilis intelligens javaslatrendszerrel és automatikus kiegészítés engedélyezése/letiltása.
+4. Szerkesztő – Használhatóság és biztonság: azonnali hibakeresés, betűméret és sorszámozás vezérlése, testreszabható automatikus mentéssel és figyelmeztetéssel mentés nélküli bezáráskor.
+5. Problémák (Issues) szekció: továbbfejlesztett gyorskeresés és szűrés, átfogó jegyállapot-kezelés, fájlmelléklet-támogatással és könnyű válaszokkal és idézetekkel.
+6. Lehívási kérelmek (Pull Requests): állapot szerinti azonnali szűrés, színes és tiszta kód-különbség nézet közvetlen sorkommentelés lehetőségével és kérelmek zökkenőmentes áttekintése.
+7. GitHub-műveletek (Actions): egyszerűsített felület a feladatok követésére és futtatására, valamint naplók és kimenetek megtekintésére, kész sablonokkal új munkafolyamatok egyszerű létrehozásához.
+8. Csapatkezelés: külön lapok a közreműködők, csapatok és kódengedélyek kezelésére, függő meghívók nyomon követésével és törlésével.
+9. Előzmények (History): rugalmas böngészés az összes korábbi változás között lapozási támogatással, változások összehasonlítása, fájlfa megtekintése és commitok könnyű visszavonása.
+10. Kedvencek: egységes nézet a kedvenc és rögzített tárolókhoz könnyű rendezéssel és rögzítés feloldásával.
+11. Beállítások és testreszabás: a beállítások átfogó rendezése 8 világos szakaszba, az összes billentyűparancs testreszabásának lehetőségével, valamint biztonsági mentések biztonságos létrehozása és visszaállítása.
+12. Gyors parancssor: külön ablak GitHub-parancsok gyors végrehajtására, az eredmények egyszerű megtekintésével és másolásával.
+13. Nyelvi támogatás: teljes és frissített fordítás 29 különböző nyelvet lefedve a teljesen integrált felhasználói élmény érdekében.
