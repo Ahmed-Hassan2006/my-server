@@ -1,0 +1,6 @@
+{
+  "_note": "Access auto-update manifest. version = deployed Access version; link = full URL of the complete Access ZIP (its root must contain the game-root structure: access\\... and start_access.exe); marker = '*' replace/overwrite files, '$' clean update deleting the old access folder first. Lines starting with _ are comments and are ignored by the updater.",
+  "version": "3.3",
+  "link": "https://raw.githubusercontent.com/Ahmed-Hassan2006/my-server/main/access.zip",
+  "marker": "*"
+}
