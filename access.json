@@ -1,6 +1,6 @@
 {
   "_note": "ملف تحديث Access: version ثابتة 3.4. marker = 0 يعني الكتابة فوق الملفات ودمجها بدون حذف الملفات المحفوظة، أما marker = 1 فيعني تثبيت نظيف يحذف مجلد access القديم أولاً. link هو الرابط الكامل لملف Access ZIP. الأسطر التي تبدأ بـ _ تعليقات ويتجاهلها المُحدِّث.",
   "version": "3.4",
-  "link": "https://github.com/Ahmed-Hassan2006/GTA_SA_ACCESS/releases/download/3.0/access.zip",
-  "marker": "0"
+  "link": "https://github.com/Ahmed-Hassan2006/GTA_SA_ACCESS/releases/download/3.4/GTA_Access_V3.4.zip",
+  "marker": "1"
 }
